@@ -1,0 +1,1759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0016E41C17383900EC481A /* AboutMagicBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0016E31C17383900EC481A /* AboutMagicBoxViewController.m */; };
+		0B0016E51C17383900EC481A /* AboutMagicBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0016E31C17383900EC481A /* AboutMagicBoxViewController.m */; };
+		0B0016E61C17383900EC481A /* AboutMagicBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0016E31C17383900EC481A /* AboutMagicBoxViewController.m */; };
+		0B0F2F7C1C196484006F3C4E /* VMFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F2F7B1C196484006F3C4E /* VMFeedback.m */; };
+		0B0F2F7D1C196484006F3C4E /* VMFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F2F7B1C196484006F3C4E /* VMFeedback.m */; };
+		0B0F2F7E1C196484006F3C4E /* VMFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F2F7B1C196484006F3C4E /* VMFeedback.m */; };
+		0B0F2F801C196499006F3C4E /* VMFeedback.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F2F7F1C196499006F3C4E /* VMFeedback.xib */; };
+		0B0F2F811C196499006F3C4E /* VMFeedback.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F2F7F1C196499006F3C4E /* VMFeedback.xib */; };
+		0B0F2F821C196499006F3C4E /* VMFeedback.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F2F7F1C196499006F3C4E /* VMFeedback.xib */; };
+		0B53AD6A1C185DCC002452F9 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B53AD691C185DCC002452F9 /* libresolv.tbd */; };
+		0B53AD6C1C185DD7002452F9 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B53AD6B1C185DD7002452F9 /* libxml2.tbd */; };
+		0B53AD6E1C185DE4002452F9 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B53AD6D1C185DE4002452F9 /* libz.1.2.5.tbd */; };
+		0B53AD701C185DFD002452F9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B53AD6F1C185DFD002452F9 /* MobileCoreServices.framework */; };
+		0B53AD721C185E07002452F9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B53AD711C185E07002452F9 /* CFNetwork.framework */; };
+		0B594EF01C1AB3390032E732 /* VMLikeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594EEB1C1AB3390032E732 /* VMLikeCell.m */; };
+		0B594EF11C1AB3390032E732 /* VMLikeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594EEB1C1AB3390032E732 /* VMLikeCell.m */; };
+		0B594EF21C1AB3390032E732 /* VMLikeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594EEB1C1AB3390032E732 /* VMLikeCell.m */; };
+		0B594EF31C1AB3390032E732 /* VMLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B594EEC1C1AB3390032E732 /* VMLikeCell.xib */; };
+		0B594EF41C1AB3390032E732 /* VMLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B594EEC1C1AB3390032E732 /* VMLikeCell.xib */; };
+		0B594EF51C1AB3390032E732 /* VMLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B594EEC1C1AB3390032E732 /* VMLikeCell.xib */; };
+		0B594EF61C1AB3390032E732 /* VMPersonHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594EEE1C1AB3390032E732 /* VMPersonHeader.m */; };
+		0B594EF71C1AB3390032E732 /* VMPersonHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594EEE1C1AB3390032E732 /* VMPersonHeader.m */; };
+		0B594EF81C1AB3390032E732 /* VMPersonHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594EEE1C1AB3390032E732 /* VMPersonHeader.m */; };
+		0B594EF91C1AB3390032E732 /* VMPersonHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B594EEF1C1AB3390032E732 /* VMPersonHeader.xib */; };
+		0B594EFA1C1AB3390032E732 /* VMPersonHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B594EEF1C1AB3390032E732 /* VMPersonHeader.xib */; };
+		0B594EFB1C1AB3390032E732 /* VMPersonHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B594EEF1C1AB3390032E732 /* VMPersonHeader.xib */; };
+		0B594EFE1C1AB52A0032E732 /* VMMenuScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594EFD1C1AB52A0032E732 /* VMMenuScrollView.m */; };
+		0B594EFF1C1AB52A0032E732 /* VMMenuScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594EFD1C1AB52A0032E732 /* VMMenuScrollView.m */; };
+		0B594F001C1AB52A0032E732 /* VMMenuScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594EFD1C1AB52A0032E732 /* VMMenuScrollView.m */; };
+		0B594F041C1AC5B60032E732 /* VMPersonCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594F021C1AC5B60032E732 /* VMPersonCommentCell.m */; };
+		0B594F051C1AC5B60032E732 /* VMPersonCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594F021C1AC5B60032E732 /* VMPersonCommentCell.m */; };
+		0B594F061C1AC5B60032E732 /* VMPersonCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594F021C1AC5B60032E732 /* VMPersonCommentCell.m */; };
+		0B594F071C1AC5B60032E732 /* VMPersonCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B594F031C1AC5B60032E732 /* VMPersonCommentCell.xib */; };
+		0B594F081C1AC5B60032E732 /* VMPersonCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B594F031C1AC5B60032E732 /* VMPersonCommentCell.xib */; };
+		0B594F091C1AC5B60032E732 /* VMPersonCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B594F031C1AC5B60032E732 /* VMPersonCommentCell.xib */; };
+		0B594F0C1C1AD4730032E732 /* VMHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594F0B1C1AD4730032E732 /* VMHistoryViewController.m */; };
+		0B594F0D1C1AD4730032E732 /* VMHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594F0B1C1AD4730032E732 /* VMHistoryViewController.m */; };
+		0B594F0E1C1AD4730032E732 /* VMHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594F0B1C1AD4730032E732 /* VMHistoryViewController.m */; };
+		0B594F111C1B015B0032E732 /* UITableViewCell+initCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594F101C1B015B0032E732 /* UITableViewCell+initCell.m */; };
+		0B594F121C1B015B0032E732 /* UITableViewCell+initCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594F101C1B015B0032E732 /* UITableViewCell+initCell.m */; };
+		0B594F131C1B015B0032E732 /* UITableViewCell+initCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B594F101C1B015B0032E732 /* UITableViewCell+initCell.m */; };
+		0B9702861C181E33008FDCFA /* VMContactUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9702851C181E33008FDCFA /* VMContactUSViewController.m */; };
+		0B9702871C181E33008FDCFA /* VMContactUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9702851C181E33008FDCFA /* VMContactUSViewController.m */; };
+		0B9702881C181E33008FDCFA /* VMContactUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9702851C181E33008FDCFA /* VMContactUSViewController.m */; };
+		0BF8FCC31C16F9DE006D5E5F /* VMSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8FCC21C16F9DE006D5E5F /* VMSettingViewController.m */; };
+		0BF8FCC41C16F9DE006D5E5F /* VMSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8FCC21C16F9DE006D5E5F /* VMSettingViewController.m */; };
+		0BF8FCC51C16F9DE006D5E5F /* VMSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8FCC21C16F9DE006D5E5F /* VMSettingViewController.m */; };
+		0BFE3BAB1C17FD800072ECAD /* VMAboutFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFE3BA61C17FD800072ECAD /* VMAboutFooter.m */; };
+		0BFE3BAC1C17FD800072ECAD /* VMAboutFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFE3BA61C17FD800072ECAD /* VMAboutFooter.m */; };
+		0BFE3BAD1C17FD800072ECAD /* VMAboutFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFE3BA61C17FD800072ECAD /* VMAboutFooter.m */; };
+		0BFE3BAE1C17FD800072ECAD /* VMAboutFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFE3BA71C17FD800072ECAD /* VMAboutFooter.xib */; };
+		0BFE3BAF1C17FD800072ECAD /* VMAboutFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFE3BA71C17FD800072ECAD /* VMAboutFooter.xib */; };
+		0BFE3BB01C17FD800072ECAD /* VMAboutFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFE3BA71C17FD800072ECAD /* VMAboutFooter.xib */; };
+		0BFE3BB11C17FD800072ECAD /* VMAboutHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFE3BA91C17FD800072ECAD /* VMAboutHeader.m */; };
+		0BFE3BB21C17FD800072ECAD /* VMAboutHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFE3BA91C17FD800072ECAD /* VMAboutHeader.m */; };
+		0BFE3BB31C17FD800072ECAD /* VMAboutHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFE3BA91C17FD800072ECAD /* VMAboutHeader.m */; };
+		0BFE3BB41C17FD800072ECAD /* VMAboutHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFE3BAA1C17FD800072ECAD /* VMAboutHeader.xib */; };
+		0BFE3BB51C17FD800072ECAD /* VMAboutHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFE3BAA1C17FD800072ECAD /* VMAboutHeader.xib */; };
+		0BFE3BB61C17FD800072ECAD /* VMAboutHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFE3BAA1C17FD800072ECAD /* VMAboutHeader.xib */; };
+		4437A9471C16E5B900B5890A /* VMClassifyCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437A9301C16E5B900B5890A /* VMClassifyCollectionView.m */; };
+		4437A9481C16E5B900B5890A /* VMClassiryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437A9321C16E5B900B5890A /* VMClassiryCollectionViewCell.m */; };
+		4437A94A1C16E5B900B5890A /* VMDiscoveryTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437A9361C16E5B900B5890A /* VMDiscoveryTableView.m */; };
+		4437A94B1C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437A9381C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.m */; };
+		4437A94C1C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4437A9391C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.xib */; };
+		4437A94D1C16E5B900B5890A /* VMLastestNewsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437A93B1C16E5B900B5890A /* VMLastestNewsTableView.m */; };
+		4437A94E1C16E5B900B5890A /* VMMStarTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437A93D1C16E5B900B5890A /* VMMStarTableView.m */; };
+		4437A94F1C16E5B900B5890A /* VMMStarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437A93F1C16E5B900B5890A /* VMMStarTableViewCell.m */; };
+		4437A9501C16E5B900B5890A /* VMMStarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4437A9401C16E5B900B5890A /* VMMStarTableViewCell.xib */; };
+		4437A9551C16E5CA00B5890A /* VMClassifyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437A9541C16E5CA00B5890A /* VMClassifyDetailViewController.m */; };
+		44A3415A1C17FF9300F56CF9 /* VMTopTenTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A341591C17FF9300F56CF9 /* VMTopTenTableView.m */; };
+		4B8E8C711C1E5E5B005984A6 /* AvPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E8C6C1C1E5E5B005984A6 /* AvPlayerViewController.m */; };
+		4B8E8C721C1E5E5B005984A6 /* VmovierAvplayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E8C6E1C1E5E5B005984A6 /* VmovierAvplayerView.m */; };
+		4B8E8C731C1E5E5B005984A6 /* VmovierPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E8C701C1E5E5B005984A6 /* VmovierPlayerView.m */; };
+		4B90423A1C1BF7CD00337EF6 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9042381C1BF7CD00337EF6 /* libMobClickLibrary.a */; };
+		4B90423D1C1BF9DC00337EF6 /* VMStatisticsSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B90423C1C1BF9DC00337EF6 /* VMStatisticsSingle.m */; };
+		4B91E9821C1C371900733811 /* libMiPushSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B91E97C1C1C371900733811 /* libMiPushSDK.a */; };
+		4B91E9831C1C371900733811 /* VMPushPublicSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B91E97F1C1C371900733811 /* VMPushPublicSingle.m */; };
+		4B91E9841C1C371900733811 /* VMPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B91E9811C1C371900733811 /* VMPushViewController.m */; };
+		4B91E9861C1C38B000733811 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B91E9851C1C38B000733811 /* AVFoundation.framework */; };
+		4B91E9881C1C38D900733811 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B91E9871C1C38D900733811 /* CoreMedia.framework */; };
+		4B91E98A1C1C38EC00733811 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B91E9891C1C38EC00733811 /* MediaPlayer.framework */; };
+		520495841C1B447D005EB133 /* VMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 520495831C1B447D005EB133 /* VMProgressView.m */; };
+		522B07291C004FA2000AAB35 /* VMCardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B07281C004FA2000AAB35 /* VMCardScrollView.m */; };
+		522B072C1C00506F000AAB35 /* VMCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 522B072B1C00506F000AAB35 /* VMCardView.m */; };
+		52300FEE1C083B3000C4B746 /* VMKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52300FED1C083B3000C4B746 /* VMKeyboardView.m */; };
+		52300FFC1C08753400C4B746 /* VMExpressionJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = 52300FF51C08753400C4B746 /* VMExpressionJudge.m */; };
+		52300FFD1C08753400C4B746 /* VMFaceBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 52300FF71C08753400C4B746 /* VMFaceBoard.m */; };
+		52300FFE1C08753400C4B746 /* VMFaceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52300FF91C08753400C4B746 /* VMFaceButton.m */; };
+		52300FFF1C08753400C4B746 /* VMGrayPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 52300FFB1C08753400C4B746 /* VMGrayPageControl.m */; };
+		523010021C0881D900C4B746 /* VMFaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 523010011C0881D900C4B746 /* VMFaceManager.m */; };
+		524673F61C0BFDF00074EA3E /* MBUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 524673F01C0BFDF00074EA3E /* MBUserDefault.m */; };
+		524673F71C0BFDF00074EA3E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524673F21C0BFDF00074EA3E /* WebViewController.m */; };
+		524673F81C0BFDF00074EA3E /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524673F41C0BFDF00074EA3E /* WelcomeViewController.m */; };
+		524673F91C0BFDF00074EA3E /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524673F51C0BFDF00074EA3E /* WelcomeViewController.xib */; };
+		524673FC1C0BFE230074EA3E /* MBCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 524673FB1C0BFE230074EA3E /* MBCircleProgressView.m */; };
+		5258F3931C1C0C6E00C5CF8F /* VMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5258F3921C1C0C6E00C5CF8F /* VMTabBarController.m */; };
+		5263A2391BFD754A00D6CE46 /* VMControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5263A2381BFD754A00D6CE46 /* VMControl.m */; };
+		5263A2481BFDC8D800D6CE46 /* VMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5263A2471BFDC8D800D6CE46 /* VMAlertView.m */; };
+		5263A24D1BFF3C4900D6CE46 /* vm_mg_toast_fail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5263A2491BFF3C4900D6CE46 /* vm_mg_toast_fail@2x.png */; };
+		5263A24E1BFF3C4900D6CE46 /* vm_mg_toast_fail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5263A24A1BFF3C4900D6CE46 /* vm_mg_toast_fail@3x.png */; };
+		5263A24F1BFF3C4900D6CE46 /* vm_mg_toast_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5263A24B1BFF3C4900D6CE46 /* vm_mg_toast_success@2x.png */; };
+		5263A2501BFF3C4900D6CE46 /* vm_mg_toast_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5263A24C1BFF3C4900D6CE46 /* vm_mg_toast_success@3x.png */; };
+		52751D021BFADBA600E2A2F5 /* VMUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52751D011BFADBA600E2A2F5 /* VMUserInfo.m */; };
+		52751D031BFB0EAD00E2A2F5 /* VMUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52751D011BFADBA600E2A2F5 /* VMUserInfo.m */; };
+		52751D081BFBA3D400E2A2F5 /* VMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52751D071BFBA3D400E2A2F5 /* VMRootViewController.m */; };
+		52751D0D1BFBA45500E2A2F5 /* VMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52751D0C1BFBA45500E2A2F5 /* VMBaseViewController.m */; };
+		52751D101BFC14B100E2A2F5 /* VMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52751D0F1BFC14B100E2A2F5 /* VMNavigationController.m */; };
+		52751D131BFC15D500E2A2F5 /* VMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52751D121BFC15D500E2A2F5 /* VMView.m */; };
+		52751D161BFC15EC00E2A2F5 /* VMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52751D151BFC15EC00E2A2F5 /* VMButton.m */; };
+		527E516A1BE9BF3E00B63BD1 /* ParamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E51691BE9BF3E00B63BD1 /* ParamViewController.m */; };
+		528FD8A71C0D727800C20509 /* VMCategoryDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 528FD8A61C0D727800C20509 /* VMCategoryDBModel.m */; };
+		528FD8AA1C0D729500C20509 /* VMVideoCategoryTBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 528FD8A91C0D729500C20509 /* VMVideoCategoryTBModel.m */; };
+		528FD8AD1C0D72B100C20509 /* VMHotTBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 528FD8AC1C0D72B000C20509 /* VMHotTBModel.m */; };
+		528FD8B01C0D72CE00C20509 /* VMVideoDetailTBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 528FD8AF1C0D72CE00C20509 /* VMVideoDetailTBModel.m */; };
+		528FD8B31C0D72EA00C20509 /* VMVideoInfoTBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 528FD8B21C0D72EA00C20509 /* VMVideoInfoTBModel.m */; };
+		528FD8B61C0D730300C20509 /* VMUserLikeTBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 528FD8B51C0D730300C20509 /* VMUserLikeTBModel.m */; };
+		528FD8B91C0D732300C20509 /* VMUserCommentTBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 528FD8B81C0D732300C20509 /* VMUserCommentTBModel.m */; };
+		52BA71C51BEB7C72004E2881 /* ahaha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52BA71C41BEB7C72004E2881 /* ahaha.jpg */; };
+		52E56F281BFC3476004E09F7 /* VMIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E56F271BFC3476004E09F7 /* VMIndexViewController.m */; };
+		52E56F2B1BFC348D004E09F7 /* VMDiscoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E56F2A1BFC348D004E09F7 /* VMDiscoryViewController.m */; };
+		52E56F2E1BFC34A4004E09F7 /* VMPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E56F2D1BFC34A4004E09F7 /* VMPersonalViewController.m */; };
+		52E584761BEC92CE003D0EAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E584751BEC92CE003D0EAC /* Foundation.framework */; };
+		52E584781BEC9A7D003D0EAC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E584771BEC9A7D003D0EAC /* CoreFoundation.framework */; };
+		52E93FD31BF5CB820066AC19 /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E93FD21BF5CB820066AC19 /* DownloadViewController.m */; };
+		52EC6AC71BF980AD00D8B64C /* DownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC6AC61BF980AD00D8B64C /* DownloadController.m */; };
+		52F0220F1C06C04600B73AA8 /* VMInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F0220E1C06C04600B73AA8 /* VMInfoView.m */; };
+		52F0221A1C06FDEA00B73AA8 /* card_collection_finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F022101C06FDEA00B73AA8 /* card_collection_finish@2x.png */; };
+		52F0221B1C06FDEA00B73AA8 /* card_collection_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F022111C06FDEA00B73AA8 /* card_collection_press@2x.png */; };
+		52F0221C1C06FDEA00B73AA8 /* card_collection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F022121C06FDEA00B73AA8 /* card_collection@2x.png */; };
+		52F0221D1C06FDEA00B73AA8 /* card_comment_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F022131C06FDEA00B73AA8 /* card_comment_press@2x.png */; };
+		52F0221E1C06FDEA00B73AA8 /* card_comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F022141C06FDEA00B73AA8 /* card_comment@2x.png */; };
+		52F0221F1C06FDEA00B73AA8 /* card_share_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F022151C06FDEA00B73AA8 /* card_share_press@2x.png */; };
+		52F022201C06FDEA00B73AA8 /* card_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F022161C06FDEA00B73AA8 /* card_share@2x.png */; };
+		52F022211C06FDEA00B73AA8 /* home_close_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F022171C06FDEA00B73AA8 /* home_close_press@2x.png */; };
+		52F022221C06FDEA00B73AA8 /* home_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F022181C06FDEA00B73AA8 /* home_close@2x.png */; };
+		52F022231C06FDEA00B73AA8 /* player_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F022191C06FDEA00B73AA8 /* player_play@2x.png */; };
+		52F16D511C04352400F82E8C /* share_pyq_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F16D471C04352400F82E8C /* share_pyq_click@2x.png */; };
+		52F16D521C04352400F82E8C /* share_pyq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F16D481C04352400F82E8C /* share_pyq@2x.png */; };
+		52F16D531C04352400F82E8C /* share_qq_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F16D491C04352400F82E8C /* share_qq_click@2x.png */; };
+		52F16D541C04352400F82E8C /* share_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F16D4A1C04352400F82E8C /* share_qq@2x.png */; };
+		52F16D551C04352400F82E8C /* share_qzone_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F16D4B1C04352400F82E8C /* share_qzone_click@2x.png */; };
+		52F16D561C04352400F82E8C /* share_qzone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F16D4C1C04352400F82E8C /* share_qzone@2x.png */; };
+		52F16D571C04352400F82E8C /* share_weibo_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F16D4D1C04352400F82E8C /* share_weibo_click@2x.png */; };
+		52F16D581C04352400F82E8C /* share_weibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F16D4E1C04352400F82E8C /* share_weibo@2x.png */; };
+		52F16D591C04352400F82E8C /* share_wx_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F16D4F1C04352400F82E8C /* share_wx_click@2x.png */; };
+		52F16D5A1C04352400F82E8C /* share_wx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F16D501C04352400F82E8C /* share_wx@2x.png */; };
+		52F3071B1C104430000114C7 /* VMCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F3071A1C104430000114C7 /* VMCommonTools.m */; };
+		52F4F7281C11368B001E73D7 /* VMovieRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F4F7271C11368B001E73D7 /* VMovieRequestHelper.m */; };
+		52F4F72D1C1142A4001E73D7 /* VMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F4F72B1C1142A4001E73D7 /* VMLoginViewController.m */; };
+		52F4F7591C11CD76001E73D7 /* VMCardInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F4F7581C11CD76001E73D7 /* VMCardInfoModel.m */; };
+		52FBCCF31BE75F3E0061D119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBCCF21BE75F3E0061D119 /* main.m */; };
+		52FBCCF61BE75F3E0061D119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBCCF51BE75F3E0061D119 /* AppDelegate.m */; };
+		52FBCCF91BE75F3E0061D119 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBCCF81BE75F3E0061D119 /* ViewController.m */; };
+		52FBCCFC1BE75F3E0061D119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FBCCFA1BE75F3E0061D119 /* Main.storyboard */; };
+		52FBCCFF1BE75F3E0061D119 /* MagicBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52FBCCFD1BE75F3E0061D119 /* MagicBox.xcdatamodeld */; };
+		52FBCD011BE75F3E0061D119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FBCD001BE75F3E0061D119 /* Assets.xcassets */; };
+		52FBCD041BE75F3E0061D119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FBCD021BE75F3E0061D119 /* LaunchScreen.storyboard */; };
+		52FBCD0F1BE75F3E0061D119 /* MagicBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBCD0E1BE75F3E0061D119 /* MagicBoxTests.m */; };
+		52FBCD1A1BE75F3E0061D119 /* MagicBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBCD191BE75F3E0061D119 /* MagicBoxUITests.m */; };
+		52FBCD4E1BE770BC0061D119 /* libVMovieKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FBCD4D1BE770BC0061D119 /* libVMovieKit.a */; };
+		78800E7B81FDAA6C7E214192 /* libPods-MagicBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B0B305CBDA3EA319C18B53 /* libPods-MagicBox.a */; };
+		FE624F331BF74C1700E95A40 /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE624F061BF74C1700E95A40 /* UMSocialLocalizable.strings */; };
+		FE624F341BF74C1700E95A40 /* libUMSocial_Sdk_4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F141BF74C1700E95A40 /* libUMSocial_Sdk_4.3.a */; };
+		FE624F351BF74C1700E95A40 /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE624F161BF74C1700E95A40 /* UMSCommentDetailController.xib */; };
+		FE624F361BF74C1700E95A40 /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE624F171BF74C1700E95A40 /* UMSCommentInputController.xib */; };
+		FE624F371BF74C1700E95A40 /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE624F181BF74C1700E95A40 /* UMSCommentInputControlleriPad.xib */; };
+		FE624F381BF74C1700E95A40 /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE624F191BF74C1700E95A40 /* UMShareEditViewController.xib */; };
+		FE624F391BF74C1700E95A40 /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE624F1A1BF74C1700E95A40 /* UMShareEditViewControlleriPad.xib */; };
+		FE624F3A1BF74C1700E95A40 /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE624F1B1BF74C1700E95A40 /* UMSLoginViewController.xib */; };
+		FE624F3B1BF74C1700E95A40 /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE624F1C1BF74C1700E95A40 /* UMSnsAccountViewController.xib */; };
+		FE624F3C1BF74C1700E95A40 /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE624F1D1BF74C1700E95A40 /* UMSShareListController.xib */; };
+		FE624F3D1BF74C1700E95A40 /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE624F1E1BF74C1700E95A40 /* UMSocialSDKResourcesNew.bundle */; };
+		FE624F3E1BF74C1700E95A40 /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F221BF74C1700E95A40 /* libSocialSina.a */; };
+		FE624F3F1BF74C1700E95A40 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F251BF74C1700E95A40 /* libSocialQQ.a */; };
+		FE624F401BF74C1700E95A40 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F261BF74C1700E95A40 /* TencentOpenAPI.framework */; };
+		FE624F411BF74C1700E95A40 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE624F271BF74C1700E95A40 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		FE624F421BF74C1700E95A40 /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F2A1BF74C1700E95A40 /* libSocialWechat.a */; };
+		FE624F431BF74C1700E95A40 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F2B1BF74C1700E95A40 /* libWeChatSDK.a */; };
+		FE624F441BF74C1700E95A40 /* VMShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE624F301BF74C1700E95A40 /* VMShareView.m */; };
+		FE624F451BF74C1700E95A40 /* VMUmThirdPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = FE624F321BF74C1700E95A40 /* VMUmThirdPlatform.m */; };
+		FE624F471BF74C5200E95A40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F461BF74C5200E95A40 /* UIKit.framework */; };
+		FE624F491BF74C6300E95A40 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F481BF74C6300E95A40 /* ImageIO.framework */; };
+		FE624F4B1BF74C6F00E95A40 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F4A1BF74C6F00E95A40 /* CoreData.framework */; };
+		FE624F4D1BF74C7E00E95A40 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F4C1BF74C7E00E95A40 /* SystemConfiguration.framework */; };
+		FE624F4F1BF74C9900E95A40 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F4E1BF74C9900E95A40 /* libsqlite3.tbd */; };
+		FE624F511BF74CA500E95A40 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F501BF74CA500E95A40 /* libz.tbd */; settings = {ATTRIBUTES = (Required, ); }; };
+		FE624F531BF74CB400E95A40 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F521BF74CB400E95A40 /* libstdc++.tbd */; };
+		FE624F551BF74CC200E95A40 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE624F541BF74CC200E95A40 /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52FBCD0B1BE75F3E0061D119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FBCCE61BE75F3E0061D119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FBCCED1BE75F3E0061D119;
+			remoteInfo = MagicBox;
+		};
+		52FBCD161BE75F3E0061D119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FBCCE61BE75F3E0061D119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FBCCED1BE75F3E0061D119;
+			remoteInfo = MagicBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0861543580B7FA78CA16A704 /* Pods-MagicBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicBox.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MagicBox/Pods-MagicBox.release.xcconfig"; sourceTree = "<group>"; };
+		0B0016E21C17383900EC481A /* AboutMagicBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutMagicBoxViewController.h; path = ../AboutMagicBoxViewController.h; sourceTree = "<group>"; };
+		0B0016E31C17383900EC481A /* AboutMagicBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutMagicBoxViewController.m; path = ../AboutMagicBoxViewController.m; sourceTree = "<group>"; };
+		0B0F2F7A1C196484006F3C4E /* VMFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMFeedback.h; sourceTree = "<group>"; };
+		0B0F2F7B1C196484006F3C4E /* VMFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMFeedback.m; sourceTree = "<group>"; };
+		0B0F2F7F1C196499006F3C4E /* VMFeedback.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMFeedback.xib; sourceTree = "<group>"; };
+		0B53AD691C185DCC002452F9 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		0B53AD6B1C185DD7002452F9 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		0B53AD6D1C185DE4002452F9 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		0B53AD6F1C185DFD002452F9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0B53AD711C185E07002452F9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0B594EEA1C1AB3390032E732 /* VMLikeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMLikeCell.h; sourceTree = "<group>"; };
+		0B594EEB1C1AB3390032E732 /* VMLikeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMLikeCell.m; sourceTree = "<group>"; };
+		0B594EEC1C1AB3390032E732 /* VMLikeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMLikeCell.xib; sourceTree = "<group>"; };
+		0B594EED1C1AB3390032E732 /* VMPersonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPersonHeader.h; sourceTree = "<group>"; };
+		0B594EEE1C1AB3390032E732 /* VMPersonHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPersonHeader.m; sourceTree = "<group>"; };
+		0B594EEF1C1AB3390032E732 /* VMPersonHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMPersonHeader.xib; sourceTree = "<group>"; };
+		0B594EFC1C1AB52A0032E732 /* VMMenuScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMMenuScrollView.h; sourceTree = "<group>"; };
+		0B594EFD1C1AB52A0032E732 /* VMMenuScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMMenuScrollView.m; sourceTree = "<group>"; };
+		0B594F011C1AC5B60032E732 /* VMPersonCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPersonCommentCell.h; sourceTree = "<group>"; };
+		0B594F021C1AC5B60032E732 /* VMPersonCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPersonCommentCell.m; sourceTree = "<group>"; };
+		0B594F031C1AC5B60032E732 /* VMPersonCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMPersonCommentCell.xib; sourceTree = "<group>"; };
+		0B594F0A1C1AD4730032E732 /* VMHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMHistoryViewController.h; sourceTree = "<group>"; };
+		0B594F0B1C1AD4730032E732 /* VMHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMHistoryViewController.m; sourceTree = "<group>"; };
+		0B594F0F1C1B015B0032E732 /* UITableViewCell+initCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+initCell.h"; sourceTree = "<group>"; };
+		0B594F101C1B015B0032E732 /* UITableViewCell+initCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+initCell.m"; sourceTree = "<group>"; };
+		0B9702841C181E33008FDCFA /* VMContactUSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMContactUSViewController.h; sourceTree = "<group>"; };
+		0B9702851C181E33008FDCFA /* VMContactUSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMContactUSViewController.m; sourceTree = "<group>"; };
+		0BF8FCC11C16F9DE006D5E5F /* VMSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMSettingViewController.h; path = ../VMSettingViewController.h; sourceTree = "<group>"; };
+		0BF8FCC21C16F9DE006D5E5F /* VMSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMSettingViewController.m; path = ../VMSettingViewController.m; sourceTree = "<group>"; };
+		0BFE3BA51C17FD800072ECAD /* VMAboutFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMAboutFooter.h; sourceTree = "<group>"; };
+		0BFE3BA61C17FD800072ECAD /* VMAboutFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMAboutFooter.m; sourceTree = "<group>"; };
+		0BFE3BA71C17FD800072ECAD /* VMAboutFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMAboutFooter.xib; sourceTree = "<group>"; };
+		0BFE3BA81C17FD800072ECAD /* VMAboutHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMAboutHeader.h; sourceTree = "<group>"; };
+		0BFE3BA91C17FD800072ECAD /* VMAboutHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMAboutHeader.m; sourceTree = "<group>"; };
+		0BFE3BAA1C17FD800072ECAD /* VMAboutHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMAboutHeader.xib; sourceTree = "<group>"; };
+		4437A92F1C16E5B900B5890A /* VMClassifyCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMClassifyCollectionView.h; sourceTree = "<group>"; };
+		4437A9301C16E5B900B5890A /* VMClassifyCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMClassifyCollectionView.m; sourceTree = "<group>"; };
+		4437A9311C16E5B900B5890A /* VMClassiryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMClassiryCollectionViewCell.h; sourceTree = "<group>"; };
+		4437A9321C16E5B900B5890A /* VMClassiryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMClassiryCollectionViewCell.m; sourceTree = "<group>"; };
+		4437A9351C16E5B900B5890A /* VMDiscoveryTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMDiscoveryTableView.h; sourceTree = "<group>"; };
+		4437A9361C16E5B900B5890A /* VMDiscoveryTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMDiscoveryTableView.m; sourceTree = "<group>"; };
+		4437A9371C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMDiscoveryTwoTableViewCell.h; sourceTree = "<group>"; };
+		4437A9381C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMDiscoveryTwoTableViewCell.m; sourceTree = "<group>"; };
+		4437A9391C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMDiscoveryTwoTableViewCell.xib; sourceTree = "<group>"; };
+		4437A93A1C16E5B900B5890A /* VMLastestNewsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMLastestNewsTableView.h; sourceTree = "<group>"; };
+		4437A93B1C16E5B900B5890A /* VMLastestNewsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMLastestNewsTableView.m; sourceTree = "<group>"; };
+		4437A93C1C16E5B900B5890A /* VMMStarTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMMStarTableView.h; sourceTree = "<group>"; };
+		4437A93D1C16E5B900B5890A /* VMMStarTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMMStarTableView.m; sourceTree = "<group>"; };
+		4437A93E1C16E5B900B5890A /* VMMStarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMMStarTableViewCell.h; sourceTree = "<group>"; };
+		4437A93F1C16E5B900B5890A /* VMMStarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMMStarTableViewCell.m; sourceTree = "<group>"; };
+		4437A9401C16E5B900B5890A /* VMMStarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMMStarTableViewCell.xib; sourceTree = "<group>"; };
+		4437A9431C16E5B900B5890A /* VMTranserValueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTranserValueDelegate.h; sourceTree = "<group>"; };
+		4437A9531C16E5CA00B5890A /* VMClassifyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMClassifyDetailViewController.h; sourceTree = "<group>"; };
+		4437A9541C16E5CA00B5890A /* VMClassifyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMClassifyDetailViewController.m; sourceTree = "<group>"; };
+		44A341581C17FF9300F56CF9 /* VMTopTenTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTopTenTableView.h; sourceTree = "<group>"; };
+		44A341591C17FF9300F56CF9 /* VMTopTenTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTopTenTableView.m; sourceTree = "<group>"; };
+		4B8E8C6B1C1E5E5B005984A6 /* AvPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvPlayerViewController.h; sourceTree = "<group>"; };
+		4B8E8C6C1C1E5E5B005984A6 /* AvPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvPlayerViewController.m; sourceTree = "<group>"; };
+		4B8E8C6D1C1E5E5B005984A6 /* VmovierAvplayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmovierAvplayerView.h; sourceTree = "<group>"; };
+		4B8E8C6E1C1E5E5B005984A6 /* VmovierAvplayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VmovierAvplayerView.m; sourceTree = "<group>"; };
+		4B8E8C6F1C1E5E5B005984A6 /* VmovierPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VmovierPlayerView.h; sourceTree = "<group>"; };
+		4B8E8C701C1E5E5B005984A6 /* VmovierPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VmovierPlayerView.m; sourceTree = "<group>"; };
+		4B90422B1C1BEFC700337EF6 /* MagicBox.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicBox.pch; sourceTree = "<group>"; };
+		4B9042381C1BF7CD00337EF6 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+		4B9042391C1BF7CD00337EF6 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		4B90423B1C1BF9DC00337EF6 /* VMStatisticsSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMStatisticsSingle.h; sourceTree = "<group>"; };
+		4B90423C1C1BF9DC00337EF6 /* VMStatisticsSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMStatisticsSingle.m; sourceTree = "<group>"; };
+		4B91E97C1C1C371900733811 /* libMiPushSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMiPushSDK.a; sourceTree = "<group>"; };
+		4B91E97D1C1C371900733811 /* MiPushSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiPushSDK.h; sourceTree = "<group>"; };
+		4B91E97E1C1C371900733811 /* VMPushPublicSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPushPublicSingle.h; sourceTree = "<group>"; };
+		4B91E97F1C1C371900733811 /* VMPushPublicSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPushPublicSingle.m; sourceTree = "<group>"; };
+		4B91E9801C1C371900733811 /* VMPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPushViewController.h; sourceTree = "<group>"; };
+		4B91E9811C1C371900733811 /* VMPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPushViewController.m; sourceTree = "<group>"; };
+		4B91E9851C1C38B000733811 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4B91E9871C1C38D900733811 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4B91E9891C1C38EC00733811 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4EC780FEB0F765B6F1198C8A /* Pods-MagicBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicBox.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MagicBox/Pods-MagicBox.debug.xcconfig"; sourceTree = "<group>"; };
+		520495821C1B447D005EB133 /* VMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMProgressView.h; sourceTree = "<group>"; };
+		520495831C1B447D005EB133 /* VMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMProgressView.m; sourceTree = "<group>"; };
+		522B07271C004FA2000AAB35 /* VMCardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCardScrollView.h; sourceTree = "<group>"; };
+		522B07281C004FA2000AAB35 /* VMCardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCardScrollView.m; sourceTree = "<group>"; };
+		522B072A1C00506F000AAB35 /* VMCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCardView.h; sourceTree = "<group>"; };
+		522B072B1C00506F000AAB35 /* VMCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCardView.m; sourceTree = "<group>"; };
+		52300FEC1C083B3000C4B746 /* VMKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMKeyboardView.h; sourceTree = "<group>"; };
+		52300FED1C083B3000C4B746 /* VMKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMKeyboardView.m; sourceTree = "<group>"; };
+		52300FF41C08753400C4B746 /* VMExpressionJudge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMExpressionJudge.h; sourceTree = "<group>"; };
+		52300FF51C08753400C4B746 /* VMExpressionJudge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMExpressionJudge.m; sourceTree = "<group>"; };
+		52300FF61C08753400C4B746 /* VMFaceBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMFaceBoard.h; sourceTree = "<group>"; };
+		52300FF71C08753400C4B746 /* VMFaceBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMFaceBoard.m; sourceTree = "<group>"; };
+		52300FF81C08753400C4B746 /* VMFaceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMFaceButton.h; sourceTree = "<group>"; };
+		52300FF91C08753400C4B746 /* VMFaceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMFaceButton.m; sourceTree = "<group>"; };
+		52300FFA1C08753400C4B746 /* VMGrayPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMGrayPageControl.h; sourceTree = "<group>"; };
+		52300FFB1C08753400C4B746 /* VMGrayPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMGrayPageControl.m; sourceTree = "<group>"; };
+		523010001C0881D900C4B746 /* VMFaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMFaceManager.h; sourceTree = "<group>"; };
+		523010011C0881D900C4B746 /* VMFaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMFaceManager.m; sourceTree = "<group>"; };
+		524673EF1C0BFDF00074EA3E /* MBUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBUserDefault.h; sourceTree = "<group>"; };
+		524673F01C0BFDF00074EA3E /* MBUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBUserDefault.m; sourceTree = "<group>"; };
+		524673F11C0BFDF00074EA3E /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		524673F21C0BFDF00074EA3E /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		524673F31C0BFDF00074EA3E /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		524673F41C0BFDF00074EA3E /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		524673F51C0BFDF00074EA3E /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		524673FA1C0BFE230074EA3E /* MBCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCircleProgressView.h; sourceTree = "<group>"; };
+		524673FB1C0BFE230074EA3E /* MBCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCircleProgressView.m; sourceTree = "<group>"; };
+		5258F3921C1C0C6E00C5CF8F /* VMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTabBarController.m; sourceTree = "<group>"; };
+		5263A2371BFD754A00D6CE46 /* VMControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMControl.h; sourceTree = "<group>"; };
+		5263A2381BFD754A00D6CE46 /* VMControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMControl.m; sourceTree = "<group>"; };
+		5263A2461BFDC8D800D6CE46 /* VMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMAlertView.h; sourceTree = "<group>"; };
+		5263A2471BFDC8D800D6CE46 /* VMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMAlertView.m; sourceTree = "<group>"; };
+		5263A2491BFF3C4900D6CE46 /* vm_mg_toast_fail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vm_mg_toast_fail@2x.png"; path = "../VMUIView/vm_mg_toast_fail@2x.png"; sourceTree = "<group>"; };
+		5263A24A1BFF3C4900D6CE46 /* vm_mg_toast_fail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vm_mg_toast_fail@3x.png"; path = "../VMUIView/vm_mg_toast_fail@3x.png"; sourceTree = "<group>"; };
+		5263A24B1BFF3C4900D6CE46 /* vm_mg_toast_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vm_mg_toast_success@2x.png"; path = "../VMUIView/vm_mg_toast_success@2x.png"; sourceTree = "<group>"; };
+		5263A24C1BFF3C4900D6CE46 /* vm_mg_toast_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vm_mg_toast_success@3x.png"; path = "../VMUIView/vm_mg_toast_success@3x.png"; sourceTree = "<group>"; };
+		52751D001BFADBA600E2A2F5 /* VMUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMUserInfo.h; sourceTree = "<group>"; };
+		52751D011BFADBA600E2A2F5 /* VMUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUserInfo.m; sourceTree = "<group>"; };
+		52751D061BFBA3D400E2A2F5 /* VMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMRootViewController.h; sourceTree = "<group>"; };
+		52751D071BFBA3D400E2A2F5 /* VMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMRootViewController.m; sourceTree = "<group>"; };
+		52751D0B1BFBA45500E2A2F5 /* VMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMBaseViewController.h; sourceTree = "<group>"; };
+		52751D0C1BFBA45500E2A2F5 /* VMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMBaseViewController.m; sourceTree = "<group>"; };
+		52751D0E1BFC14B100E2A2F5 /* VMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMNavigationController.h; sourceTree = "<group>"; };
+		52751D0F1BFC14B100E2A2F5 /* VMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMNavigationController.m; sourceTree = "<group>"; };
+		52751D111BFC15D500E2A2F5 /* VMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMView.h; sourceTree = "<group>"; };
+		52751D121BFC15D500E2A2F5 /* VMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMView.m; sourceTree = "<group>"; };
+		52751D141BFC15EC00E2A2F5 /* VMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMButton.h; sourceTree = "<group>"; };
+		52751D151BFC15EC00E2A2F5 /* VMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMButton.m; sourceTree = "<group>"; };
+		52751D181BFC191900E2A2F5 /* VMDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMDefinition.h; sourceTree = "<group>"; };
+		527E51681BE9BF3E00B63BD1 /* ParamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParamViewController.h; sourceTree = "<group>"; };
+		527E51691BE9BF3E00B63BD1 /* ParamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParamViewController.m; sourceTree = "<group>"; };
+		528FD8A51C0D727800C20509 /* VMCategoryDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCategoryDBModel.h; sourceTree = "<group>"; };
+		528FD8A61C0D727800C20509 /* VMCategoryDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCategoryDBModel.m; sourceTree = "<group>"; };
+		528FD8A81C0D729500C20509 /* VMVideoCategoryTBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMVideoCategoryTBModel.h; sourceTree = "<group>"; };
+		528FD8A91C0D729500C20509 /* VMVideoCategoryTBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMVideoCategoryTBModel.m; sourceTree = "<group>"; };
+		528FD8AB1C0D72B000C20509 /* VMHotTBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMHotTBModel.h; sourceTree = "<group>"; };
+		528FD8AC1C0D72B000C20509 /* VMHotTBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMHotTBModel.m; sourceTree = "<group>"; };
+		528FD8AE1C0D72CE00C20509 /* VMVideoDetailTBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMVideoDetailTBModel.h; sourceTree = "<group>"; };
+		528FD8AF1C0D72CE00C20509 /* VMVideoDetailTBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMVideoDetailTBModel.m; sourceTree = "<group>"; };
+		528FD8B11C0D72EA00C20509 /* VMVideoInfoTBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMVideoInfoTBModel.h; sourceTree = "<group>"; };
+		528FD8B21C0D72EA00C20509 /* VMVideoInfoTBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMVideoInfoTBModel.m; sourceTree = "<group>"; };
+		528FD8B41C0D730300C20509 /* VMUserLikeTBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMUserLikeTBModel.h; sourceTree = "<group>"; };
+		528FD8B51C0D730300C20509 /* VMUserLikeTBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUserLikeTBModel.m; sourceTree = "<group>"; };
+		528FD8B71C0D732300C20509 /* VMUserCommentTBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMUserCommentTBModel.h; sourceTree = "<group>"; };
+		528FD8B81C0D732300C20509 /* VMUserCommentTBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUserCommentTBModel.m; sourceTree = "<group>"; };
+		52BA71C41BEB7C72004E2881 /* ahaha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ahaha.jpg; sourceTree = "<group>"; };
+		52E56F101BFC298F004E09F7 /* VMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTabBarController.h; sourceTree = "<group>"; };
+		52E56F261BFC3476004E09F7 /* VMIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMIndexViewController.h; sourceTree = "<group>"; };
+		52E56F271BFC3476004E09F7 /* VMIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMIndexViewController.m; sourceTree = "<group>"; };
+		52E56F291BFC348D004E09F7 /* VMDiscoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMDiscoryViewController.h; sourceTree = "<group>"; };
+		52E56F2A1BFC348D004E09F7 /* VMDiscoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMDiscoryViewController.m; sourceTree = "<group>"; };
+		52E56F2C1BFC34A4004E09F7 /* VMPersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPersonalViewController.h; sourceTree = "<group>"; };
+		52E56F2D1BFC34A4004E09F7 /* VMPersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPersonalViewController.m; sourceTree = "<group>"; };
+		52E584751BEC92CE003D0EAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52E584771BEC9A7D003D0EAC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		52E93FD11BF5CB820066AC19 /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		52E93FD21BF5CB820066AC19 /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		52EC6AC51BF980AD00D8B64C /* DownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadController.h; sourceTree = "<group>"; };
+		52EC6AC61BF980AD00D8B64C /* DownloadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadController.m; sourceTree = "<group>"; };
+		52F0220D1C06C04600B73AA8 /* VMInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMInfoView.h; sourceTree = "<group>"; };
+		52F0220E1C06C04600B73AA8 /* VMInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMInfoView.m; sourceTree = "<group>"; };
+		52F022101C06FDEA00B73AA8 /* card_collection_finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_collection_finish@2x.png"; sourceTree = "<group>"; };
+		52F022111C06FDEA00B73AA8 /* card_collection_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_collection_press@2x.png"; sourceTree = "<group>"; };
+		52F022121C06FDEA00B73AA8 /* card_collection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_collection@2x.png"; sourceTree = "<group>"; };
+		52F022131C06FDEA00B73AA8 /* card_comment_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_comment_press@2x.png"; sourceTree = "<group>"; };
+		52F022141C06FDEA00B73AA8 /* card_comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_comment@2x.png"; sourceTree = "<group>"; };
+		52F022151C06FDEA00B73AA8 /* card_share_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_share_press@2x.png"; sourceTree = "<group>"; };
+		52F022161C06FDEA00B73AA8 /* card_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_share@2x.png"; sourceTree = "<group>"; };
+		52F022171C06FDEA00B73AA8 /* home_close_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_close_press@2x.png"; sourceTree = "<group>"; };
+		52F022181C06FDEA00B73AA8 /* home_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_close@2x.png"; sourceTree = "<group>"; };
+		52F022191C06FDEA00B73AA8 /* player_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_play@2x.png"; sourceTree = "<group>"; };
+		52F16D471C04352400F82E8C /* share_pyq_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_pyq_click@2x.png"; sourceTree = "<group>"; };
+		52F16D481C04352400F82E8C /* share_pyq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_pyq@2x.png"; sourceTree = "<group>"; };
+		52F16D491C04352400F82E8C /* share_qq_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_qq_click@2x.png"; sourceTree = "<group>"; };
+		52F16D4A1C04352400F82E8C /* share_qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_qq@2x.png"; sourceTree = "<group>"; };
+		52F16D4B1C04352400F82E8C /* share_qzone_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_qzone_click@2x.png"; sourceTree = "<group>"; };
+		52F16D4C1C04352400F82E8C /* share_qzone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_qzone@2x.png"; sourceTree = "<group>"; };
+		52F16D4D1C04352400F82E8C /* share_weibo_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_weibo_click@2x.png"; sourceTree = "<group>"; };
+		52F16D4E1C04352400F82E8C /* share_weibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_weibo@2x.png"; sourceTree = "<group>"; };
+		52F16D4F1C04352400F82E8C /* share_wx_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_wx_click@2x.png"; sourceTree = "<group>"; };
+		52F16D501C04352400F82E8C /* share_wx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_wx@2x.png"; sourceTree = "<group>"; };
+		52F307111C0EE576000114C7 /* VMCommenDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCommenDefinition.h; sourceTree = "<group>"; };
+		52F307191C104430000114C7 /* VMCommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCommonTools.h; sourceTree = "<group>"; };
+		52F3071A1C104430000114C7 /* VMCommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCommonTools.m; sourceTree = "<group>"; };
+		52F4F7261C11368B001E73D7 /* VMovieRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMovieRequestHelper.h; sourceTree = "<group>"; };
+		52F4F7271C11368B001E73D7 /* VMovieRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMovieRequestHelper.m; sourceTree = "<group>"; };
+		52F4F72A1C1142A4001E73D7 /* VMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMLoginViewController.h; sourceTree = "<group>"; };
+		52F4F72B1C1142A4001E73D7 /* VMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMLoginViewController.m; sourceTree = "<group>"; };
+		52F4F7571C11CD76001E73D7 /* VMCardInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCardInfoModel.h; sourceTree = "<group>"; };
+		52F4F7581C11CD76001E73D7 /* VMCardInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCardInfoModel.m; sourceTree = "<group>"; };
+		52FBCCEE1BE75F3E0061D119 /* MagicBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FBCCF21BE75F3E0061D119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52FBCCF41BE75F3E0061D119 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52FBCCF51BE75F3E0061D119 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52FBCCF71BE75F3E0061D119 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52FBCCF81BE75F3E0061D119 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52FBCCFB1BE75F3E0061D119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52FBCCFE1BE75F3E0061D119 /* MagicBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagicBox.xcdatamodel; sourceTree = "<group>"; };
+		52FBCD001BE75F3E0061D119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FBCD031BE75F3E0061D119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52FBCD051BE75F3E0061D119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FBCD0A1BE75F3E0061D119 /* MagicBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FBCD0E1BE75F3E0061D119 /* MagicBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicBoxTests.m; sourceTree = "<group>"; };
+		52FBCD101BE75F3E0061D119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FBCD151BE75F3E0061D119 /* MagicBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FBCD191BE75F3E0061D119 /* MagicBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicBoxUITests.m; sourceTree = "<group>"; };
+		52FBCD1B1BE75F3E0061D119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FBCD4D1BE770BC0061D119 /* libVMovieKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVMovieKit.a; path = "../../../Library/Developer/Xcode/DerivedData/VMovier-dvtmvlbbveccebaiussbqnwexdlw/Build/Products/Debug-iphoneos/libVMovieKit.a"; sourceTree = "<group>"; };
+		60B0B305CBDA3EA319C18B53 /* libPods-MagicBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE624F071BF74C1700E95A40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		FE624F091BF74C1700E95A40 /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		FE624F0A1BF74C1700E95A40 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		FE624F0B1BF74C1700E95A40 /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		FE624F0C1BF74C1700E95A40 /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		FE624F0D1BF74C1700E95A40 /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		FE624F0E1BF74C1700E95A40 /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		FE624F0F1BF74C1700E95A40 /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		FE624F101BF74C1700E95A40 /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		FE624F111BF74C1700E95A40 /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		FE624F121BF74C1700E95A40 /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		FE624F131BF74C1700E95A40 /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		FE624F141BF74C1700E95A40 /* libUMSocial_Sdk_4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.3.a; sourceTree = "<group>"; };
+		FE624F161BF74C1700E95A40 /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		FE624F171BF74C1700E95A40 /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
+		FE624F181BF74C1700E95A40 /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		FE624F191BF74C1700E95A40 /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
+		FE624F1A1BF74C1700E95A40 /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		FE624F1B1BF74C1700E95A40 /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
+		FE624F1C1BF74C1700E95A40 /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		FE624F1D1BF74C1700E95A40 /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
+		FE624F1E1BF74C1700E95A40 /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		FE624F1F1BF74C1700E95A40 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		FE624F221BF74C1700E95A40 /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		FE624F231BF74C1700E95A40 /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		FE624F251BF74C1700E95A40 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		FE624F261BF74C1700E95A40 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		FE624F271BF74C1700E95A40 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		FE624F281BF74C1700E95A40 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		FE624F2A1BF74C1700E95A40 /* libSocialWechat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWechat.a; sourceTree = "<group>"; };
+		FE624F2B1BF74C1700E95A40 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		FE624F2C1BF74C1700E95A40 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		FE624F2D1BF74C1700E95A40 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		FE624F2E1BF74C1700E95A40 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		FE624F2F1BF74C1700E95A40 /* VMShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMShareView.h; sourceTree = "<group>"; };
+		FE624F301BF74C1700E95A40 /* VMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMShareView.m; sourceTree = "<group>"; };
+		FE624F311BF74C1700E95A40 /* VMUmThirdPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMUmThirdPlatform.h; sourceTree = "<group>"; };
+		FE624F321BF74C1700E95A40 /* VMUmThirdPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUmThirdPlatform.m; sourceTree = "<group>"; };
+		FE624F461BF74C5200E95A40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE624F481BF74C6300E95A40 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FE624F4A1BF74C6F00E95A40 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FE624F4C1BF74C7E00E95A40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FE624F4E1BF74C9900E95A40 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FE624F501BF74CA500E95A40 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FE624F521BF74CB400E95A40 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		FE624F541BF74CC200E95A40 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FBCCEB1BE75F3E0061D119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B91E98A1C1C38EC00733811 /* MediaPlayer.framework in Frameworks */,
+				4B91E9881C1C38D900733811 /* CoreMedia.framework in Frameworks */,
+				4B91E9861C1C38B000733811 /* AVFoundation.framework in Frameworks */,
+				FE624F551BF74CC200E95A40 /* CoreTelephony.framework in Frameworks */,
+				0B53AD721C185E07002452F9 /* CFNetwork.framework in Frameworks */,
+				0B53AD701C185DFD002452F9 /* MobileCoreServices.framework in Frameworks */,
+				FE624F4D1BF74C7E00E95A40 /* SystemConfiguration.framework in Frameworks */,
+				0B53AD6E1C185DE4002452F9 /* libz.1.2.5.tbd in Frameworks */,
+				0B53AD6C1C185DD7002452F9 /* libxml2.tbd in Frameworks */,
+				0B53AD6A1C185DCC002452F9 /* libresolv.tbd in Frameworks */,
+				FE624F531BF74CB400E95A40 /* libstdc++.tbd in Frameworks */,
+				FE624F511BF74CA500E95A40 /* libz.tbd in Frameworks */,
+				4B90423A1C1BF7CD00337EF6 /* libMobClickLibrary.a in Frameworks */,
+				FE624F4F1BF74C9900E95A40 /* libsqlite3.tbd in Frameworks */,
+				FE624F4B1BF74C6F00E95A40 /* CoreData.framework in Frameworks */,
+				FE624F491BF74C6300E95A40 /* ImageIO.framework in Frameworks */,
+				FE624F471BF74C5200E95A40 /* UIKit.framework in Frameworks */,
+				52E584781BEC9A7D003D0EAC /* CoreFoundation.framework in Frameworks */,
+				FE624F401BF74C1700E95A40 /* TencentOpenAPI.framework in Frameworks */,
+				52E584761BEC92CE003D0EAC /* Foundation.framework in Frameworks */,
+				FE624F341BF74C1700E95A40 /* libUMSocial_Sdk_4.3.a in Frameworks */,
+				FE624F431BF74C1700E95A40 /* libWeChatSDK.a in Frameworks */,
+				52FBCD4E1BE770BC0061D119 /* libVMovieKit.a in Frameworks */,
+				4B91E9821C1C371900733811 /* libMiPushSDK.a in Frameworks */,
+				78800E7B81FDAA6C7E214192 /* libPods-MagicBox.a in Frameworks */,
+				FE624F3F1BF74C1700E95A40 /* libSocialQQ.a in Frameworks */,
+				FE624F421BF74C1700E95A40 /* libSocialWechat.a in Frameworks */,
+				FE624F3E1BF74C1700E95A40 /* libSocialSina.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FBCD071BE75F3E0061D119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FBCD121BE75F3E0061D119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B594EE91C1AB3390032E732 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0B594EFC1C1AB52A0032E732 /* VMMenuScrollView.h */,
+				0B594EFD1C1AB52A0032E732 /* VMMenuScrollView.m */,
+				0B594EEA1C1AB3390032E732 /* VMLikeCell.h */,
+				0B594EEB1C1AB3390032E732 /* VMLikeCell.m */,
+				0B594EEC1C1AB3390032E732 /* VMLikeCell.xib */,
+				0B594EED1C1AB3390032E732 /* VMPersonHeader.h */,
+				0B594EEE1C1AB3390032E732 /* VMPersonHeader.m */,
+				0B594EEF1C1AB3390032E732 /* VMPersonHeader.xib */,
+				0B594F011C1AC5B60032E732 /* VMPersonCommentCell.h */,
+				0B594F021C1AC5B60032E732 /* VMPersonCommentCell.m */,
+				0B594F031C1AC5B60032E732 /* VMPersonCommentCell.xib */,
+				0B594F0F1C1B015B0032E732 /* UITableViewCell+initCell.h */,
+				0B594F101C1B015B0032E732 /* UITableViewCell+initCell.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		0B9702831C1802DC008FDCFA /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BF8FCC11C16F9DE006D5E5F /* VMSettingViewController.h */,
+				0BF8FCC21C16F9DE006D5E5F /* VMSettingViewController.m */,
+				0B0016E21C17383900EC481A /* AboutMagicBoxViewController.h */,
+				0B0016E31C17383900EC481A /* AboutMagicBoxViewController.m */,
+				0B9702841C181E33008FDCFA /* VMContactUSViewController.h */,
+				0B9702851C181E33008FDCFA /* VMContactUSViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		0BF8FCC01C16F90D006D5E5F /* VMSetting */ = {
+			isa = PBXGroup;
+			children = (
+				0B9702831C1802DC008FDCFA /* controllers */,
+				0BFE3BA41C17FD800072ECAD /* views */,
+			);
+			path = VMSetting;
+			sourceTree = "<group>";
+		};
+		0BFE3BA41C17FD800072ECAD /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0BFE3BA51C17FD800072ECAD /* VMAboutFooter.h */,
+				0BFE3BA61C17FD800072ECAD /* VMAboutFooter.m */,
+				0BFE3BA71C17FD800072ECAD /* VMAboutFooter.xib */,
+				0BFE3BA81C17FD800072ECAD /* VMAboutHeader.h */,
+				0BFE3BA91C17FD800072ECAD /* VMAboutHeader.m */,
+				0BFE3BAA1C17FD800072ECAD /* VMAboutHeader.xib */,
+				0B0F2F7A1C196484006F3C4E /* VMFeedback.h */,
+				0B0F2F7B1C196484006F3C4E /* VMFeedback.m */,
+				0B0F2F7F1C196499006F3C4E /* VMFeedback.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		1DFC4072ADF793DA41C8D4AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EC780FEB0F765B6F1198C8A /* Pods-MagicBox.debug.xcconfig */,
+				0861543580B7FA78CA16A704 /* Pods-MagicBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4437A9291C16E5B900B5890A /* DiscoveryTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4437A92F1C16E5B900B5890A /* VMClassifyCollectionView.h */,
+				4437A9301C16E5B900B5890A /* VMClassifyCollectionView.m */,
+				4437A9311C16E5B900B5890A /* VMClassiryCollectionViewCell.h */,
+				4437A9321C16E5B900B5890A /* VMClassiryCollectionViewCell.m */,
+				4437A9351C16E5B900B5890A /* VMDiscoveryTableView.h */,
+				4437A9361C16E5B900B5890A /* VMDiscoveryTableView.m */,
+				4437A9371C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.h */,
+				4437A9381C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.m */,
+				4437A9391C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.xib */,
+				4437A93A1C16E5B900B5890A /* VMLastestNewsTableView.h */,
+				4437A93B1C16E5B900B5890A /* VMLastestNewsTableView.m */,
+				4437A93C1C16E5B900B5890A /* VMMStarTableView.h */,
+				4437A93D1C16E5B900B5890A /* VMMStarTableView.m */,
+				4437A93E1C16E5B900B5890A /* VMMStarTableViewCell.h */,
+				4437A93F1C16E5B900B5890A /* VMMStarTableViewCell.m */,
+				4437A9401C16E5B900B5890A /* VMMStarTableViewCell.xib */,
+				44A341581C17FF9300F56CF9 /* VMTopTenTableView.h */,
+				44A341591C17FF9300F56CF9 /* VMTopTenTableView.m */,
+				4437A9431C16E5B900B5890A /* VMTranserValueDelegate.h */,
+			);
+			path = DiscoveryTableView;
+			sourceTree = "<group>";
+		};
+		4437A9521C16E5CA00B5890A /* DetailViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4437A9531C16E5CA00B5890A /* VMClassifyDetailViewController.h */,
+				4437A9541C16E5CA00B5890A /* VMClassifyDetailViewController.m */,
+			);
+			path = DetailViewControllers;
+			sourceTree = "<group>";
+		};
+		4B8E8C6A1C1E5E5B005984A6 /* VMVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E8C6B1C1E5E5B005984A6 /* AvPlayerViewController.h */,
+				4B8E8C6C1C1E5E5B005984A6 /* AvPlayerViewController.m */,
+				4B8E8C6F1C1E5E5B005984A6 /* VmovierPlayerView.h */,
+				4B8E8C701C1E5E5B005984A6 /* VmovierPlayerView.m */,
+				4B8E8C6D1C1E5E5B005984A6 /* VmovierAvplayerView.h */,
+				4B8E8C6E1C1E5E5B005984A6 /* VmovierAvplayerView.m */,
+			);
+			path = VMVideoPlayer;
+			sourceTree = "<group>";
+		};
+		4B90422C1C1BF4C200337EF6 /* VMUMFunction */ = {
+			isa = PBXGroup;
+			children = (
+				4B91E97B1C1C371900733811 /* VMPushFunction */,
+				4B9042341C1BF4C200337EF6 /* VMStatistics */,
+			);
+			path = VMUMFunction;
+			sourceTree = "<group>";
+		};
+		4B9042341C1BF4C200337EF6 /* VMStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				4B9042381C1BF7CD00337EF6 /* libMobClickLibrary.a */,
+				4B9042391C1BF7CD00337EF6 /* MobClick.h */,
+				4B90423B1C1BF9DC00337EF6 /* VMStatisticsSingle.h */,
+				4B90423C1C1BF9DC00337EF6 /* VMStatisticsSingle.m */,
+			);
+			path = VMStatistics;
+			sourceTree = "<group>";
+		};
+		4B91E97B1C1C371900733811 /* VMPushFunction */ = {
+			isa = PBXGroup;
+			children = (
+				4B91E97C1C1C371900733811 /* libMiPushSDK.a */,
+				4B91E97D1C1C371900733811 /* MiPushSDK.h */,
+				4B91E97E1C1C371900733811 /* VMPushPublicSingle.h */,
+				4B91E97F1C1C371900733811 /* VMPushPublicSingle.m */,
+				4B91E9801C1C371900733811 /* VMPushViewController.h */,
+				4B91E9811C1C371900733811 /* VMPushViewController.m */,
+			);
+			path = VMPushFunction;
+			sourceTree = "<group>";
+		};
+		522B07261C004F6F000AAB35 /* Bundles */ = {
+			isa = PBXGroup;
+			children = (
+				5263A2491BFF3C4900D6CE46 /* vm_mg_toast_fail@2x.png */,
+				5263A24A1BFF3C4900D6CE46 /* vm_mg_toast_fail@3x.png */,
+				5263A24B1BFF3C4900D6CE46 /* vm_mg_toast_success@2x.png */,
+				5263A24C1BFF3C4900D6CE46 /* vm_mg_toast_success@3x.png */,
+				52F16D471C04352400F82E8C /* share_pyq_click@2x.png */,
+				52F16D481C04352400F82E8C /* share_pyq@2x.png */,
+				52F16D491C04352400F82E8C /* share_qq_click@2x.png */,
+				52F16D4A1C04352400F82E8C /* share_qq@2x.png */,
+				52F16D4B1C04352400F82E8C /* share_qzone_click@2x.png */,
+				52F16D4C1C04352400F82E8C /* share_qzone@2x.png */,
+				52F16D4D1C04352400F82E8C /* share_weibo_click@2x.png */,
+				52F16D4E1C04352400F82E8C /* share_weibo@2x.png */,
+				52F16D4F1C04352400F82E8C /* share_wx_click@2x.png */,
+				52F16D501C04352400F82E8C /* share_wx@2x.png */,
+				52F022101C06FDEA00B73AA8 /* card_collection_finish@2x.png */,
+				52F022111C06FDEA00B73AA8 /* card_collection_press@2x.png */,
+				52F022121C06FDEA00B73AA8 /* card_collection@2x.png */,
+				52F022131C06FDEA00B73AA8 /* card_comment_press@2x.png */,
+				52F022141C06FDEA00B73AA8 /* card_comment@2x.png */,
+				52F022151C06FDEA00B73AA8 /* card_share_press@2x.png */,
+				52F022161C06FDEA00B73AA8 /* card_share@2x.png */,
+				52F022171C06FDEA00B73AA8 /* home_close_press@2x.png */,
+				52F022181C06FDEA00B73AA8 /* home_close@2x.png */,
+				52F022191C06FDEA00B73AA8 /* player_play@2x.png */,
+			);
+			path = Bundles;
+			sourceTree = "<group>";
+		};
+		52300FF31C08753400C4B746 /* VMFaceBoard */ = {
+			isa = PBXGroup;
+			children = (
+				52300FF41C08753400C4B746 /* VMExpressionJudge.h */,
+				52300FF51C08753400C4B746 /* VMExpressionJudge.m */,
+				52300FF61C08753400C4B746 /* VMFaceBoard.h */,
+				52300FF71C08753400C4B746 /* VMFaceBoard.m */,
+				52300FF81C08753400C4B746 /* VMFaceButton.h */,
+				52300FF91C08753400C4B746 /* VMFaceButton.m */,
+				52300FFA1C08753400C4B746 /* VMGrayPageControl.h */,
+				52300FFB1C08753400C4B746 /* VMGrayPageControl.m */,
+				523010001C0881D900C4B746 /* VMFaceManager.h */,
+				523010011C0881D900C4B746 /* VMFaceManager.m */,
+			);
+			path = VMFaceBoard;
+			sourceTree = "<group>";
+		};
+		524673EE1C0BFDF00074EA3E /* Welcom */ = {
+			isa = PBXGroup;
+			children = (
+				524673EF1C0BFDF00074EA3E /* MBUserDefault.h */,
+				524673F01C0BFDF00074EA3E /* MBUserDefault.m */,
+				524673F11C0BFDF00074EA3E /* WebViewController.h */,
+				524673F21C0BFDF00074EA3E /* WebViewController.m */,
+				524673F31C0BFDF00074EA3E /* WelcomeViewController.h */,
+				524673F41C0BFDF00074EA3E /* WelcomeViewController.m */,
+				524673F51C0BFDF00074EA3E /* WelcomeViewController.xib */,
+			);
+			path = Welcom;
+			sourceTree = "<group>";
+		};
+		52751CFF1BFADB9400E2A2F5 /* VMUser */ = {
+			isa = PBXGroup;
+			children = (
+				52751D001BFADBA600E2A2F5 /* VMUserInfo.h */,
+				52751D011BFADBA600E2A2F5 /* VMUserInfo.m */,
+				528FD8A51C0D727800C20509 /* VMCategoryDBModel.h */,
+				528FD8A61C0D727800C20509 /* VMCategoryDBModel.m */,
+				528FD8A81C0D729500C20509 /* VMVideoCategoryTBModel.h */,
+				528FD8A91C0D729500C20509 /* VMVideoCategoryTBModel.m */,
+				528FD8AB1C0D72B000C20509 /* VMHotTBModel.h */,
+				528FD8AC1C0D72B000C20509 /* VMHotTBModel.m */,
+				528FD8AE1C0D72CE00C20509 /* VMVideoDetailTBModel.h */,
+				528FD8AF1C0D72CE00C20509 /* VMVideoDetailTBModel.m */,
+				528FD8B11C0D72EA00C20509 /* VMVideoInfoTBModel.h */,
+				528FD8B21C0D72EA00C20509 /* VMVideoInfoTBModel.m */,
+				528FD8B41C0D730300C20509 /* VMUserLikeTBModel.h */,
+				528FD8B51C0D730300C20509 /* VMUserLikeTBModel.m */,
+				528FD8B71C0D732300C20509 /* VMUserCommentTBModel.h */,
+				528FD8B81C0D732300C20509 /* VMUserCommentTBModel.m */,
+				52F4F7571C11CD76001E73D7 /* VMCardInfoModel.h */,
+				52F4F7581C11CD76001E73D7 /* VMCardInfoModel.m */,
+			);
+			path = VMUser;
+			sourceTree = "<group>";
+		};
+		52751D051BFBA3BE00E2A2F5 /* VMViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BF8FCC01C16F90D006D5E5F /* VMSetting */,
+				52F4F7291C114271001E73D7 /* VMLogin */,
+				524673EE1C0BFDF00074EA3E /* Welcom */,
+				52E56F231BFC3424004E09F7 /* VMDiscovery */,
+				52E56F241BFC3424004E09F7 /* VMIndex */,
+				52E56F251BFC3424004E09F7 /* VMPersonal */,
+				52751D061BFBA3D400E2A2F5 /* VMRootViewController.h */,
+				52751D071BFBA3D400E2A2F5 /* VMRootViewController.m */,
+			);
+			path = VMViewControllers;
+			sourceTree = "<group>";
+		};
+		52751D091BFBA40E00E2A2F5 /* VMUIView */ = {
+			isa = PBXGroup;
+			children = (
+				524673FA1C0BFE230074EA3E /* MBCircleProgressView.h */,
+				524673FB1C0BFE230074EA3E /* MBCircleProgressView.m */,
+				52300FF31C08753400C4B746 /* VMFaceBoard */,
+				5263A2461BFDC8D800D6CE46 /* VMAlertView.h */,
+				5263A2471BFDC8D800D6CE46 /* VMAlertView.m */,
+				522B07271C004FA2000AAB35 /* VMCardScrollView.h */,
+				522B07281C004FA2000AAB35 /* VMCardScrollView.m */,
+				522B072A1C00506F000AAB35 /* VMCardView.h */,
+				522B072B1C00506F000AAB35 /* VMCardView.m */,
+				52F0220D1C06C04600B73AA8 /* VMInfoView.h */,
+				52F0220E1C06C04600B73AA8 /* VMInfoView.m */,
+				52300FEC1C083B3000C4B746 /* VMKeyboardView.h */,
+				52300FED1C083B3000C4B746 /* VMKeyboardView.m */,
+				520495821C1B447D005EB133 /* VMProgressView.h */,
+				520495831C1B447D005EB133 /* VMProgressView.m */,
+			);
+			path = VMUIView;
+			sourceTree = "<group>";
+		};
+		52751D0A1BFBA41700E2A2F5 /* VMBase */ = {
+			isa = PBXGroup;
+			children = (
+				52751D0B1BFBA45500E2A2F5 /* VMBaseViewController.h */,
+				52751D0C1BFBA45500E2A2F5 /* VMBaseViewController.m */,
+				52751D0E1BFC14B100E2A2F5 /* VMNavigationController.h */,
+				52751D0F1BFC14B100E2A2F5 /* VMNavigationController.m */,
+				52751D111BFC15D500E2A2F5 /* VMView.h */,
+				52751D121BFC15D500E2A2F5 /* VMView.m */,
+				52751D141BFC15EC00E2A2F5 /* VMButton.h */,
+				52751D151BFC15EC00E2A2F5 /* VMButton.m */,
+				52E56F101BFC298F004E09F7 /* VMTabBarController.h */,
+				5258F3921C1C0C6E00C5CF8F /* VMTabBarController.m */,
+				5263A2371BFD754A00D6CE46 /* VMControl.h */,
+				5263A2381BFD754A00D6CE46 /* VMControl.m */,
+			);
+			path = VMBase;
+			sourceTree = "<group>";
+		};
+		52751D171BFC16F800E2A2F5 /* CommonAndTools */ = {
+			isa = PBXGroup;
+			children = (
+				52751D181BFC191900E2A2F5 /* VMDefinition.h */,
+				52F307111C0EE576000114C7 /* VMCommenDefinition.h */,
+				52F307191C104430000114C7 /* VMCommonTools.h */,
+				52F3071A1C104430000114C7 /* VMCommonTools.m */,
+				52F4F7261C11368B001E73D7 /* VMovieRequestHelper.h */,
+				52F4F7271C11368B001E73D7 /* VMovieRequestHelper.m */,
+			);
+			path = CommonAndTools;
+			sourceTree = "<group>";
+		};
+		52E56F231BFC3424004E09F7 /* VMDiscovery */ = {
+			isa = PBXGroup;
+			children = (
+				4437A9521C16E5CA00B5890A /* DetailViewControllers */,
+				4437A9291C16E5B900B5890A /* DiscoveryTableView */,
+				52E56F291BFC348D004E09F7 /* VMDiscoryViewController.h */,
+				52E56F2A1BFC348D004E09F7 /* VMDiscoryViewController.m */,
+			);
+			path = VMDiscovery;
+			sourceTree = "<group>";
+		};
+		52E56F241BFC3424004E09F7 /* VMIndex */ = {
+			isa = PBXGroup;
+			children = (
+				52E56F261BFC3476004E09F7 /* VMIndexViewController.h */,
+				52E56F271BFC3476004E09F7 /* VMIndexViewController.m */,
+			);
+			path = VMIndex;
+			sourceTree = "<group>";
+		};
+		52E56F251BFC3424004E09F7 /* VMPersonal */ = {
+			isa = PBXGroup;
+			children = (
+				0B594EE91C1AB3390032E732 /* views */,
+				52E56F2C1BFC34A4004E09F7 /* VMPersonalViewController.h */,
+				52E56F2D1BFC34A4004E09F7 /* VMPersonalViewController.m */,
+				0B594F0A1C1AD4730032E732 /* VMHistoryViewController.h */,
+				0B594F0B1C1AD4730032E732 /* VMHistoryViewController.m */,
+			);
+			path = VMPersonal;
+			sourceTree = "<group>";
+		};
+		52F4F7291C114271001E73D7 /* VMLogin */ = {
+			isa = PBXGroup;
+			children = (
+				52F4F72A1C1142A4001E73D7 /* VMLoginViewController.h */,
+				52F4F72B1C1142A4001E73D7 /* VMLoginViewController.m */,
+			);
+			path = VMLogin;
+			sourceTree = "<group>";
+		};
+		52FBCCE51BE75F3E0061D119 = {
+			isa = PBXGroup;
+			children = (
+				FE624F031BF74C1700E95A40 /* MagicThirdTools */,
+				52FBCCF01BE75F3E0061D119 /* MagicBox */,
+				52FBCD0D1BE75F3E0061D119 /* MagicBoxTests */,
+				52FBCD181BE75F3E0061D119 /* MagicBoxUITests */,
+				52FBCCEF1BE75F3E0061D119 /* Products */,
+				1DFC4072ADF793DA41C8D4AA /* Pods */,
+				EAEC918B4F1DCED6A6C947C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52FBCCEF1BE75F3E0061D119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FBCCEE1BE75F3E0061D119 /* MagicBox.app */,
+				52FBCD0A1BE75F3E0061D119 /* MagicBoxTests.xctest */,
+				52FBCD151BE75F3E0061D119 /* MagicBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FBCCF01BE75F3E0061D119 /* MagicBox */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E8C6A1C1E5E5B005984A6 /* VMVideoPlayer */,
+				4B90422C1C1BF4C200337EF6 /* VMUMFunction */,
+				522B07261C004F6F000AAB35 /* Bundles */,
+				52751D171BFC16F800E2A2F5 /* CommonAndTools */,
+				52751D0A1BFBA41700E2A2F5 /* VMBase */,
+				52751D091BFBA40E00E2A2F5 /* VMUIView */,
+				52751D051BFBA3BE00E2A2F5 /* VMViewControllers */,
+				52751CFF1BFADB9400E2A2F5 /* VMUser */,
+				52FBCCF41BE75F3E0061D119 /* AppDelegate.h */,
+				52FBCCF51BE75F3E0061D119 /* AppDelegate.m */,
+				52FBCCF71BE75F3E0061D119 /* ViewController.h */,
+				52FBCCF81BE75F3E0061D119 /* ViewController.m */,
+				52BA71C41BEB7C72004E2881 /* ahaha.jpg */,
+				52FBCCFA1BE75F3E0061D119 /* Main.storyboard */,
+				52FBCD001BE75F3E0061D119 /* Assets.xcassets */,
+				52FBCD021BE75F3E0061D119 /* LaunchScreen.storyboard */,
+				52FBCD051BE75F3E0061D119 /* Info.plist */,
+				52FBCCFD1BE75F3E0061D119 /* MagicBox.xcdatamodeld */,
+				52FBCCF11BE75F3E0061D119 /* Supporting Files */,
+				527E51681BE9BF3E00B63BD1 /* ParamViewController.h */,
+				527E51691BE9BF3E00B63BD1 /* ParamViewController.m */,
+				52E93FD11BF5CB820066AC19 /* DownloadViewController.h */,
+				52E93FD21BF5CB820066AC19 /* DownloadViewController.m */,
+				52EC6AC51BF980AD00D8B64C /* DownloadController.h */,
+				52EC6AC61BF980AD00D8B64C /* DownloadController.m */,
+			);
+			path = MagicBox;
+			sourceTree = "<group>";
+		};
+		52FBCCF11BE75F3E0061D119 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52FBCCF21BE75F3E0061D119 /* main.m */,
+				4B90422B1C1BEFC700337EF6 /* MagicBox.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52FBCD0D1BE75F3E0061D119 /* MagicBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				52FBCD0E1BE75F3E0061D119 /* MagicBoxTests.m */,
+				52FBCD101BE75F3E0061D119 /* Info.plist */,
+			);
+			path = MagicBoxTests;
+			sourceTree = "<group>";
+		};
+		52FBCD181BE75F3E0061D119 /* MagicBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52FBCD191BE75F3E0061D119 /* MagicBoxUITests.m */,
+				52FBCD1B1BE75F3E0061D119 /* Info.plist */,
+			);
+			path = MagicBoxUITests;
+			sourceTree = "<group>";
+		};
+		EAEC918B4F1DCED6A6C947C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B91E9891C1C38EC00733811 /* MediaPlayer.framework */,
+				4B91E9871C1C38D900733811 /* CoreMedia.framework */,
+				4B91E9851C1C38B000733811 /* AVFoundation.framework */,
+				0B53AD711C185E07002452F9 /* CFNetwork.framework */,
+				0B53AD6F1C185DFD002452F9 /* MobileCoreServices.framework */,
+				0B53AD6D1C185DE4002452F9 /* libz.1.2.5.tbd */,
+				0B53AD6B1C185DD7002452F9 /* libxml2.tbd */,
+				0B53AD691C185DCC002452F9 /* libresolv.tbd */,
+				FE624F541BF74CC200E95A40 /* CoreTelephony.framework */,
+				FE624F521BF74CB400E95A40 /* libstdc++.tbd */,
+				FE624F501BF74CA500E95A40 /* libz.tbd */,
+				FE624F4E1BF74C9900E95A40 /* libsqlite3.tbd */,
+				FE624F4C1BF74C7E00E95A40 /* SystemConfiguration.framework */,
+				FE624F4A1BF74C6F00E95A40 /* CoreData.framework */,
+				FE624F481BF74C6300E95A40 /* ImageIO.framework */,
+				FE624F461BF74C5200E95A40 /* UIKit.framework */,
+				52E584771BEC9A7D003D0EAC /* CoreFoundation.framework */,
+				52E584751BEC92CE003D0EAC /* Foundation.framework */,
+				52FBCD4D1BE770BC0061D119 /* libVMovieKit.a */,
+				60B0B305CBDA3EA319C18B53 /* libPods-MagicBox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE624F031BF74C1700E95A40 /* MagicThirdTools */ = {
+			isa = PBXGroup;
+			children = (
+				FE624F041BF74C1700E95A40 /* ThirdShare */,
+			);
+			path = MagicThirdTools;
+			sourceTree = "<group>";
+		};
+		FE624F041BF74C1700E95A40 /* ThirdShare */ = {
+			isa = PBXGroup;
+			children = (
+				FE624F051BF74C1700E95A40 /* UMSocial_Sdk_4.3 */,
+				FE624F201BF74C1700E95A40 /* UMSocial_Sdk_Extra_Frameworks */,
+				FE624F2F1BF74C1700E95A40 /* VMShareView.h */,
+				FE624F301BF74C1700E95A40 /* VMShareView.m */,
+				FE624F311BF74C1700E95A40 /* VMUmThirdPlatform.h */,
+				FE624F321BF74C1700E95A40 /* VMUmThirdPlatform.m */,
+			);
+			path = ThirdShare;
+			sourceTree = "<group>";
+		};
+		FE624F051BF74C1700E95A40 /* UMSocial_Sdk_4.3 */ = {
+			isa = PBXGroup;
+			children = (
+				FE624F061BF74C1700E95A40 /* UMSocialLocalizable.strings */,
+				FE624F081BF74C1700E95A40 /* Header */,
+				FE624F141BF74C1700E95A40 /* libUMSocial_Sdk_4.3.a */,
+				FE624F151BF74C1700E95A40 /* SocialSDKXib */,
+				FE624F1E1BF74C1700E95A40 /* UMSocialSDKResourcesNew.bundle */,
+			);
+			path = UMSocial_Sdk_4.3;
+			sourceTree = "<group>";
+		};
+		FE624F081BF74C1700E95A40 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				FE624F091BF74C1700E95A40 /* UMSocial.h */,
+				FE624F0A1BF74C1700E95A40 /* UMSocialAccountManager.h */,
+				FE624F0B1BF74C1700E95A40 /* UMSocialBar.h */,
+				FE624F0C1BF74C1700E95A40 /* UMSocialConfig.h */,
+				FE624F0D1BF74C1700E95A40 /* UMSocialControllerService.h */,
+				FE624F0E1BF74C1700E95A40 /* UMSocialControllerServiceComment.h */,
+				FE624F0F1BF74C1700E95A40 /* UMSocialData.h */,
+				FE624F101BF74C1700E95A40 /* UMSocialDataService.h */,
+				FE624F111BF74C1700E95A40 /* UMSocialSnsData.h */,
+				FE624F121BF74C1700E95A40 /* UMSocialSnsPlatformManager.h */,
+				FE624F131BF74C1700E95A40 /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		FE624F151BF74C1700E95A40 /* SocialSDKXib */ = {
+			isa = PBXGroup;
+			children = (
+				FE624F161BF74C1700E95A40 /* UMSCommentDetailController.xib */,
+				FE624F171BF74C1700E95A40 /* UMSCommentInputController.xib */,
+				FE624F181BF74C1700E95A40 /* UMSCommentInputControlleriPad.xib */,
+				FE624F191BF74C1700E95A40 /* UMShareEditViewController.xib */,
+				FE624F1A1BF74C1700E95A40 /* UMShareEditViewControlleriPad.xib */,
+				FE624F1B1BF74C1700E95A40 /* UMSLoginViewController.xib */,
+				FE624F1C1BF74C1700E95A40 /* UMSnsAccountViewController.xib */,
+				FE624F1D1BF74C1700E95A40 /* UMSShareListController.xib */,
+			);
+			path = SocialSDKXib;
+			sourceTree = "<group>";
+		};
+		FE624F201BF74C1700E95A40 /* UMSocial_Sdk_Extra_Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE624F211BF74C1700E95A40 /* Sina */,
+				FE624F241BF74C1700E95A40 /* TencentOpenAPI */,
+				FE624F291BF74C1700E95A40 /* Wechat */,
+			);
+			path = UMSocial_Sdk_Extra_Frameworks;
+			sourceTree = "<group>";
+		};
+		FE624F211BF74C1700E95A40 /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				FE624F221BF74C1700E95A40 /* libSocialSina.a */,
+				FE624F231BF74C1700E95A40 /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		FE624F241BF74C1700E95A40 /* TencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				FE624F251BF74C1700E95A40 /* libSocialQQ.a */,
+				FE624F261BF74C1700E95A40 /* TencentOpenAPI.framework */,
+				FE624F271BF74C1700E95A40 /* TencentOpenApi_IOS_Bundle.bundle */,
+				FE624F281BF74C1700E95A40 /* UMSocialQQHandler.h */,
+			);
+			path = TencentOpenAPI;
+			sourceTree = "<group>";
+		};
+		FE624F291BF74C1700E95A40 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				FE624F2A1BF74C1700E95A40 /* libSocialWechat.a */,
+				FE624F2B1BF74C1700E95A40 /* libWeChatSDK.a */,
+				FE624F2C1BF74C1700E95A40 /* UMSocialWechatHandler.h */,
+				FE624F2D1BF74C1700E95A40 /* WXApi.h */,
+				FE624F2E1BF74C1700E95A40 /* WXApiObject.h */,
+			);
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FBCCED1BE75F3E0061D119 /* MagicBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FBCD1E1BE75F3E0061D119 /* Build configuration list for PBXNativeTarget "MagicBox" */;
+			buildPhases = (
+				A11F6368AA36EB818BA1F862 /* Check Pods Manifest.lock */,
+				52FBCCEA1BE75F3E0061D119 /* Sources */,
+				52FBCCEB1BE75F3E0061D119 /* Frameworks */,
+				52FBCCEC1BE75F3E0061D119 /* Resources */,
+				E7948659582115EBC8FBA62E /* Embed Pods Frameworks */,
+				79B055E362BFAC682D3BB4C8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicBox;
+			productName = MagicBox;
+			productReference = 52FBCCEE1BE75F3E0061D119 /* MagicBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52FBCD091BE75F3E0061D119 /* MagicBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FBCD211BE75F3E0061D119 /* Build configuration list for PBXNativeTarget "MagicBoxTests" */;
+			buildPhases = (
+				52FBCD061BE75F3E0061D119 /* Sources */,
+				52FBCD071BE75F3E0061D119 /* Frameworks */,
+				52FBCD081BE75F3E0061D119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FBCD0C1BE75F3E0061D119 /* PBXTargetDependency */,
+			);
+			name = MagicBoxTests;
+			productName = MagicBoxTests;
+			productReference = 52FBCD0A1BE75F3E0061D119 /* MagicBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52FBCD141BE75F3E0061D119 /* MagicBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FBCD241BE75F3E0061D119 /* Build configuration list for PBXNativeTarget "MagicBoxUITests" */;
+			buildPhases = (
+				52FBCD111BE75F3E0061D119 /* Sources */,
+				52FBCD121BE75F3E0061D119 /* Frameworks */,
+				52FBCD131BE75F3E0061D119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FBCD171BE75F3E0061D119 /* PBXTargetDependency */,
+			);
+			name = MagicBoxUITests;
+			productName = MagicBoxUITests;
+			productReference = 52FBCD151BE75F3E0061D119 /* MagicBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FBCCE61BE75F3E0061D119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "蒋正峰";
+				TargetAttributes = {
+					52FBCCED1BE75F3E0061D119 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7GL725C6FL;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					52FBCD091BE75F3E0061D119 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 52FBCCED1BE75F3E0061D119;
+					};
+					52FBCD141BE75F3E0061D119 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 52FBCCED1BE75F3E0061D119;
+					};
+				};
+			};
+			buildConfigurationList = 52FBCCE91BE75F3E0061D119 /* Build configuration list for PBXProject "MagicBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 52FBCCE51BE75F3E0061D119;
+			productRefGroup = 52FBCCEF1BE75F3E0061D119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52FBCCED1BE75F3E0061D119 /* MagicBox */,
+				52FBCD091BE75F3E0061D119 /* MagicBoxTests */,
+				52FBCD141BE75F3E0061D119 /* MagicBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FBCCEC1BE75F3E0061D119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F16D561C04352400F82E8C /* share_qzone@2x.png in Resources */,
+				52F0221B1C06FDEA00B73AA8 /* card_collection_press@2x.png in Resources */,
+				4437A9501C16E5B900B5890A /* VMMStarTableViewCell.xib in Resources */,
+				0B0F2F801C196499006F3C4E /* VMFeedback.xib in Resources */,
+				FE624F391BF74C1700E95A40 /* UMShareEditViewControlleriPad.xib in Resources */,
+				0B594F071C1AC5B60032E732 /* VMPersonCommentCell.xib in Resources */,
+				5263A24F1BFF3C4900D6CE46 /* vm_mg_toast_success@2x.png in Resources */,
+				5263A2501BFF3C4900D6CE46 /* vm_mg_toast_success@3x.png in Resources */,
+				524673F91C0BFDF00074EA3E /* WelcomeViewController.xib in Resources */,
+				52F16D581C04352400F82E8C /* share_weibo@2x.png in Resources */,
+				FE624F3B1BF74C1700E95A40 /* UMSnsAccountViewController.xib in Resources */,
+				52F022231C06FDEA00B73AA8 /* player_play@2x.png in Resources */,
+				FE624F361BF74C1700E95A40 /* UMSCommentInputController.xib in Resources */,
+				FE624F411BF74C1700E95A40 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				FE624F351BF74C1700E95A40 /* UMSCommentDetailController.xib in Resources */,
+				52F0221E1C06FDEA00B73AA8 /* card_comment@2x.png in Resources */,
+				5263A24E1BFF3C4900D6CE46 /* vm_mg_toast_fail@3x.png in Resources */,
+				52F16D511C04352400F82E8C /* share_pyq_click@2x.png in Resources */,
+				52F16D571C04352400F82E8C /* share_weibo_click@2x.png in Resources */,
+				52F16D591C04352400F82E8C /* share_wx_click@2x.png in Resources */,
+				0BFE3BB41C17FD800072ECAD /* VMAboutHeader.xib in Resources */,
+				52F16D551C04352400F82E8C /* share_qzone_click@2x.png in Resources */,
+				52F16D5A1C04352400F82E8C /* share_wx@2x.png in Resources */,
+				52F16D541C04352400F82E8C /* share_qq@2x.png in Resources */,
+				52F16D531C04352400F82E8C /* share_qq_click@2x.png in Resources */,
+				52FBCD041BE75F3E0061D119 /* LaunchScreen.storyboard in Resources */,
+				0BFE3BAE1C17FD800072ECAD /* VMAboutFooter.xib in Resources */,
+				52F16D521C04352400F82E8C /* share_pyq@2x.png in Resources */,
+				52F0221A1C06FDEA00B73AA8 /* card_collection_finish@2x.png in Resources */,
+				52F0221F1C06FDEA00B73AA8 /* card_share_press@2x.png in Resources */,
+				52FBCD011BE75F3E0061D119 /* Assets.xcassets in Resources */,
+				FE624F3D1BF74C1700E95A40 /* UMSocialSDKResourcesNew.bundle in Resources */,
+				FE624F371BF74C1700E95A40 /* UMSCommentInputControlleriPad.xib in Resources */,
+				4437A94C1C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.xib in Resources */,
+				52F0221C1C06FDEA00B73AA8 /* card_collection@2x.png in Resources */,
+				0B594EF91C1AB3390032E732 /* VMPersonHeader.xib in Resources */,
+				FE624F381BF74C1700E95A40 /* UMShareEditViewController.xib in Resources */,
+				FE624F3C1BF74C1700E95A40 /* UMSShareListController.xib in Resources */,
+				FE624F331BF74C1700E95A40 /* UMSocialLocalizable.strings in Resources */,
+				0B594EF31C1AB3390032E732 /* VMLikeCell.xib in Resources */,
+				52F022221C06FDEA00B73AA8 /* home_close@2x.png in Resources */,
+				52F022211C06FDEA00B73AA8 /* home_close_press@2x.png in Resources */,
+				52F022201C06FDEA00B73AA8 /* card_share@2x.png in Resources */,
+				52F0221D1C06FDEA00B73AA8 /* card_comment_press@2x.png in Resources */,
+				52FBCCFC1BE75F3E0061D119 /* Main.storyboard in Resources */,
+				52BA71C51BEB7C72004E2881 /* ahaha.jpg in Resources */,
+				FE624F3A1BF74C1700E95A40 /* UMSLoginViewController.xib in Resources */,
+				5263A24D1BFF3C4900D6CE46 /* vm_mg_toast_fail@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FBCD081BE75F3E0061D119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B594EFA1C1AB3390032E732 /* VMPersonHeader.xib in Resources */,
+				0BFE3BAF1C17FD800072ECAD /* VMAboutFooter.xib in Resources */,
+				0B0F2F811C196499006F3C4E /* VMFeedback.xib in Resources */,
+				0B594EF41C1AB3390032E732 /* VMLikeCell.xib in Resources */,
+				0BFE3BB51C17FD800072ECAD /* VMAboutHeader.xib in Resources */,
+				0B594F081C1AC5B60032E732 /* VMPersonCommentCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FBCD131BE75F3E0061D119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B594EFB1C1AB3390032E732 /* VMPersonHeader.xib in Resources */,
+				0BFE3BB01C17FD800072ECAD /* VMAboutFooter.xib in Resources */,
+				0B0F2F821C196499006F3C4E /* VMFeedback.xib in Resources */,
+				0B594EF51C1AB3390032E732 /* VMLikeCell.xib in Resources */,
+				0BFE3BB61C17FD800072ECAD /* VMAboutHeader.xib in Resources */,
+				0B594F091C1AC5B60032E732 /* VMPersonCommentCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79B055E362BFAC682D3BB4C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MagicBox/Pods-MagicBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11F6368AA36EB818BA1F862 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7948659582115EBC8FBA62E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MagicBox/Pods-MagicBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FBCCEA1BE75F3E0061D119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FBCCF91BE75F3E0061D119 /* ViewController.m in Sources */,
+				52FBCCF61BE75F3E0061D119 /* AppDelegate.m in Sources */,
+				52751D081BFBA3D400E2A2F5 /* VMRootViewController.m in Sources */,
+				52300FFE1C08753400C4B746 /* VMFaceButton.m in Sources */,
+				0B594F111C1B015B0032E732 /* UITableViewCell+initCell.m in Sources */,
+				52E56F281BFC3476004E09F7 /* VMIndexViewController.m in Sources */,
+				524673FC1C0BFE230074EA3E /* MBCircleProgressView.m in Sources */,
+				520495841C1B447D005EB133 /* VMProgressView.m in Sources */,
+				4B8E8C711C1E5E5B005984A6 /* AvPlayerViewController.m in Sources */,
+				44A3415A1C17FF9300F56CF9 /* VMTopTenTableView.m in Sources */,
+				0BFE3BAB1C17FD800072ECAD /* VMAboutFooter.m in Sources */,
+				0BFE3BB11C17FD800072ECAD /* VMAboutHeader.m in Sources */,
+				528FD8AD1C0D72B100C20509 /* VMHotTBModel.m in Sources */,
+				528FD8B01C0D72CE00C20509 /* VMVideoDetailTBModel.m in Sources */,
+				52F4F7591C11CD76001E73D7 /* VMCardInfoModel.m in Sources */,
+				52F0220F1C06C04600B73AA8 /* VMInfoView.m in Sources */,
+				52300FFF1C08753400C4B746 /* VMGrayPageControl.m in Sources */,
+				528FD8B61C0D730300C20509 /* VMUserLikeTBModel.m in Sources */,
+				0B594EF01C1AB3390032E732 /* VMLikeCell.m in Sources */,
+				523010021C0881D900C4B746 /* VMFaceManager.m in Sources */,
+				4437A9471C16E5B900B5890A /* VMClassifyCollectionView.m in Sources */,
+				522B07291C004FA2000AAB35 /* VMCardScrollView.m in Sources */,
+				52751D161BFC15EC00E2A2F5 /* VMButton.m in Sources */,
+				4B8E8C721C1E5E5B005984A6 /* VmovierAvplayerView.m in Sources */,
+				4437A94D1C16E5B900B5890A /* VMLastestNewsTableView.m in Sources */,
+				4437A94B1C16E5B900B5890A /* VMDiscoveryTwoTableViewCell.m in Sources */,
+				5258F3931C1C0C6E00C5CF8F /* VMTabBarController.m in Sources */,
+				52F3071B1C104430000114C7 /* VMCommonTools.m in Sources */,
+				4B90423D1C1BF9DC00337EF6 /* VMStatisticsSingle.m in Sources */,
+				528FD8AA1C0D729500C20509 /* VMVideoCategoryTBModel.m in Sources */,
+				0B0016E41C17383900EC481A /* AboutMagicBoxViewController.m in Sources */,
+				4437A94E1C16E5B900B5890A /* VMMStarTableView.m in Sources */,
+				52F4F72D1C1142A4001E73D7 /* VMLoginViewController.m in Sources */,
+				52EC6AC71BF980AD00D8B64C /* DownloadController.m in Sources */,
+				4B91E9831C1C371900733811 /* VMPushPublicSingle.m in Sources */,
+				0B594F0C1C1AD4730032E732 /* VMHistoryViewController.m in Sources */,
+				4B8E8C731C1E5E5B005984A6 /* VmovierPlayerView.m in Sources */,
+				52F4F7281C11368B001E73D7 /* VMovieRequestHelper.m in Sources */,
+				524673F81C0BFDF00074EA3E /* WelcomeViewController.m in Sources */,
+				0BF8FCC31C16F9DE006D5E5F /* VMSettingViewController.m in Sources */,
+				4437A9551C16E5CA00B5890A /* VMClassifyDetailViewController.m in Sources */,
+				528FD8B91C0D732300C20509 /* VMUserCommentTBModel.m in Sources */,
+				524673F71C0BFDF00074EA3E /* WebViewController.m in Sources */,
+				52300FFD1C08753400C4B746 /* VMFaceBoard.m in Sources */,
+				5263A2481BFDC8D800D6CE46 /* VMAlertView.m in Sources */,
+				528FD8A71C0D727800C20509 /* VMCategoryDBModel.m in Sources */,
+				4437A94A1C16E5B900B5890A /* VMDiscoveryTableView.m in Sources */,
+				52E93FD31BF5CB820066AC19 /* DownloadViewController.m in Sources */,
+				0B9702861C181E33008FDCFA /* VMContactUSViewController.m in Sources */,
+				52751D101BFC14B100E2A2F5 /* VMNavigationController.m in Sources */,
+				0B594EF61C1AB3390032E732 /* VMPersonHeader.m in Sources */,
+				52300FFC1C08753400C4B746 /* VMExpressionJudge.m in Sources */,
+				0B0F2F7C1C196484006F3C4E /* VMFeedback.m in Sources */,
+				52751D0D1BFBA45500E2A2F5 /* VMBaseViewController.m in Sources */,
+				0B594EFE1C1AB52A0032E732 /* VMMenuScrollView.m in Sources */,
+				527E516A1BE9BF3E00B63BD1 /* ParamViewController.m in Sources */,
+				FE624F441BF74C1700E95A40 /* VMShareView.m in Sources */,
+				528FD8B31C0D72EA00C20509 /* VMVideoInfoTBModel.m in Sources */,
+				4B91E9841C1C371900733811 /* VMPushViewController.m in Sources */,
+				522B072C1C00506F000AAB35 /* VMCardView.m in Sources */,
+				52FBCCF31BE75F3E0061D119 /* main.m in Sources */,
+				52FBCCFF1BE75F3E0061D119 /* MagicBox.xcdatamodeld in Sources */,
+				52751D021BFADBA600E2A2F5 /* VMUserInfo.m in Sources */,
+				FE624F451BF74C1700E95A40 /* VMUmThirdPlatform.m in Sources */,
+				52751D131BFC15D500E2A2F5 /* VMView.m in Sources */,
+				52E56F2B1BFC348D004E09F7 /* VMDiscoryViewController.m in Sources */,
+				52E56F2E1BFC34A4004E09F7 /* VMPersonalViewController.m in Sources */,
+				524673F61C0BFDF00074EA3E /* MBUserDefault.m in Sources */,
+				0B594F041C1AC5B60032E732 /* VMPersonCommentCell.m in Sources */,
+				4437A94F1C16E5B900B5890A /* VMMStarTableViewCell.m in Sources */,
+				4437A9481C16E5B900B5890A /* VMClassiryCollectionViewCell.m in Sources */,
+				52300FEE1C083B3000C4B746 /* VMKeyboardView.m in Sources */,
+				5263A2391BFD754A00D6CE46 /* VMControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FBCD061BE75F3E0061D119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0016E51C17383900EC481A /* AboutMagicBoxViewController.m in Sources */,
+				0BFE3BB21C17FD800072ECAD /* VMAboutHeader.m in Sources */,
+				0BFE3BAC1C17FD800072ECAD /* VMAboutFooter.m in Sources */,
+				0B594EF71C1AB3390032E732 /* VMPersonHeader.m in Sources */,
+				0B0F2F7D1C196484006F3C4E /* VMFeedback.m in Sources */,
+				0B594F121C1B015B0032E732 /* UITableViewCell+initCell.m in Sources */,
+				0B594EFF1C1AB52A0032E732 /* VMMenuScrollView.m in Sources */,
+				0B594F0D1C1AD4730032E732 /* VMHistoryViewController.m in Sources */,
+				0B594F051C1AC5B60032E732 /* VMPersonCommentCell.m in Sources */,
+				0B9702871C181E33008FDCFA /* VMContactUSViewController.m in Sources */,
+				0B594EF11C1AB3390032E732 /* VMLikeCell.m in Sources */,
+				0BF8FCC41C16F9DE006D5E5F /* VMSettingViewController.m in Sources */,
+				52FBCD0F1BE75F3E0061D119 /* MagicBoxTests.m in Sources */,
+				52751D031BFB0EAD00E2A2F5 /* VMUserInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FBCD111BE75F3E0061D119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F2F7E1C196484006F3C4E /* VMFeedback.m in Sources */,
+				0BF8FCC51C16F9DE006D5E5F /* VMSettingViewController.m in Sources */,
+				0BFE3BB31C17FD800072ECAD /* VMAboutHeader.m in Sources */,
+				0B594F131C1B015B0032E732 /* UITableViewCell+initCell.m in Sources */,
+				52FBCD1A1BE75F3E0061D119 /* MagicBoxUITests.m in Sources */,
+				0B594EF81C1AB3390032E732 /* VMPersonHeader.m in Sources */,
+				0B0016E61C17383900EC481A /* AboutMagicBoxViewController.m in Sources */,
+				0B594EF21C1AB3390032E732 /* VMLikeCell.m in Sources */,
+				0B594F061C1AC5B60032E732 /* VMPersonCommentCell.m in Sources */,
+				0B9702881C181E33008FDCFA /* VMContactUSViewController.m in Sources */,
+				0B594F0E1C1AD4730032E732 /* VMHistoryViewController.m in Sources */,
+				0BFE3BAD1C17FD800072ECAD /* VMAboutFooter.m in Sources */,
+				0B594F001C1AB52A0032E732 /* VMMenuScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52FBCD0C1BE75F3E0061D119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FBCCED1BE75F3E0061D119 /* MagicBox */;
+			targetProxy = 52FBCD0B1BE75F3E0061D119 /* PBXContainerItemProxy */;
+		};
+		52FBCD171BE75F3E0061D119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FBCCED1BE75F3E0061D119 /* MagicBox */;
+			targetProxy = 52FBCD161BE75F3E0061D119 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52FBCCFA1BE75F3E0061D119 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FBCCFB1BE75F3E0061D119 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52FBCD021BE75F3E0061D119 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FBCD031BE75F3E0061D119 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FE624F061BF74C1700E95A40 /* UMSocialLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE624F071BF74C1700E95A40 /* en */,
+				FE624F1F1BF74C1700E95A40 /* zh-Hans */,
+			);
+			name = UMSocialLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52FBCD1C1BE75F3E0061D119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52FBCD1D1BE75F3E0061D119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FBCD1F1BE75F3E0061D119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC780FEB0F765B6F1198C8A /* Pods-MagicBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicThirdTools/ThirdShare/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT)/MagicBox.pch";
+				INFOPLIST_FILE = MagicBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicThirdTools/ThirdShare/UMSocial_Sdk_4.3",
+					"$(PROJECT_DIR)/MagicThirdTools/ThirdShare/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/MagicThirdTools/ThirdShare/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/MagicThirdTools/ThirdShare/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/MagicBox/VMViewControllers/VMPushFunction",
+					"$(PROJECT_DIR)/MagicBox/VMUMFunction/VMPushFunction",
+					"$(PROJECT_DIR)/MagicBox/VMUMFunction/VMStatistics",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.molihe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52FBCD201BE75F3E0061D119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0861543580B7FA78CA16A704 /* Pods-MagicBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicThirdTools/ThirdShare/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT)/MagicBox.pch";
+				INFOPLIST_FILE = MagicBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicThirdTools/ThirdShare/UMSocial_Sdk_4.3",
+					"$(PROJECT_DIR)/MagicThirdTools/ThirdShare/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/MagicThirdTools/ThirdShare/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/MagicThirdTools/ThirdShare/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/MagicBox/VMViewControllers/VMPushFunction",
+					"$(PROJECT_DIR)/MagicBox/VMUMFunction/VMPushFunction",
+					"$(PROJECT_DIR)/MagicBox/VMUMFunction/VMStatistics",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.molihe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52FBCD221BE75F3E0061D119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicBox/VMViewControllers/PushFunction",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..MagicBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicBox.app/MagicBox";
+			};
+			name = Debug;
+		};
+		52FBCD231BE75F3E0061D119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicBox/VMViewControllers/PushFunction",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..MagicBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicBox.app/MagicBox";
+			};
+			name = Release;
+		};
+		52FBCD251BE75F3E0061D119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicBox/VMViewControllers/PushFunction",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..MagicBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		52FBCD261BE75F3E0061D119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicBox/VMViewControllers/PushFunction",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..MagicBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FBCCE91BE75F3E0061D119 /* Build configuration list for PBXProject "MagicBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FBCD1C1BE75F3E0061D119 /* Debug */,
+				52FBCD1D1BE75F3E0061D119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FBCD1E1BE75F3E0061D119 /* Build configuration list for PBXNativeTarget "MagicBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FBCD1F1BE75F3E0061D119 /* Debug */,
+				52FBCD201BE75F3E0061D119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FBCD211BE75F3E0061D119 /* Build configuration list for PBXNativeTarget "MagicBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FBCD221BE75F3E0061D119 /* Debug */,
+				52FBCD231BE75F3E0061D119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FBCD241BE75F3E0061D119 /* Build configuration list for PBXNativeTarget "MagicBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FBCD251BE75F3E0061D119 /* Debug */,
+				52FBCD261BE75F3E0061D119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52FBCCFD1BE75F3E0061D119 /* MagicBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52FBCCFE1BE75F3E0061D119 /* MagicBox.xcdatamodel */,
+			);
+			currentVersion = 52FBCCFE1BE75F3E0061D119 /* MagicBox.xcdatamodel */;
+			path = MagicBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52FBCCE61BE75F3E0061D119 /* Project object */;
+}

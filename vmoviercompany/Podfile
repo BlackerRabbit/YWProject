@@ -1,0 +1,31 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, "7.0"
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://chengqihan@git.vmovier.cc/scm/~chengqihan/firstspecs.git'
+
+workspace 'MagicBox.xcworkspace'
+xcodeproj 'MagicBox/MagicBox.xcodeproj'
+def app_pods
+    pod 'AFNetworking','~> 2.6.3'
+    pod 'MBProgressHUD','~> 0.9.1'
+    pod 'Mantle','~> 2.0.5'
+    pod 'FMDB','~> 2.5'
+    pod 'CocoaLumberjack','~> 2.2.0'
+    pod 'MJRefresh','~> 3.0.6'
+    pod 'SDWebImage','~> 3.7.3'
+    pod 'UMengFeedback','~> 2.3.4'
+    pod 'WebViewJavascriptBridge','~> 4.0.0'
+    pod 'ZipArchive','~> 1.4.0'
+    pod 'Bugly','~> 1.4.7'
+    pod 'NJKWebViewProgress'
+    pod 'Downloader','~>0.1.0'
+    pod 'YPTabBarController'
+end
+
+
+target  :MagicBox do
+#	xcodeproj 'MagicBox/MagicBox.xcodeproj'
+    app_pods
+end 
+

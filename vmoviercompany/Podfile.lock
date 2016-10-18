@@ -1,0 +1,89 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bugly (1.4.8)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - Downloader (0.1.9):
+    - FMDB
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.0.8)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - UMengFeedback (2.3.4)
+  - WebViewJavascriptBridge (4.0.1)
+  - YPTabBarController (2.1)
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.3)
+  - Bugly (~> 1.4.7)
+  - CocoaLumberjack (~> 2.2.0)
+  - Downloader (~> 0.1.0)
+  - FMDB (~> 2.5)
+  - Mantle (~> 2.0.5)
+  - MBProgressHUD (~> 0.9.1)
+  - MJRefresh (~> 3.0.6)
+  - NJKWebViewProgress
+  - SDWebImage (~> 3.7.3)
+  - UMengFeedback (~> 2.3.4)
+  - WebViewJavascriptBridge (~> 4.0.0)
+  - YPTabBarController
+  - ZipArchive (~> 1.4.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Bugly: 601c052f93759bae2c778815a380b67dabb5a0fc
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  Downloader: 5e18b3c7a11e9b5dd29bf73e68845e05f2877b11
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  UMengFeedback: 5283cc0e324dffca4dd54c4abb3cbded56487817
+  WebViewJavascriptBridge: 61763151d6ca476c71dd4274f777262416f6b54f
+  YPTabBarController: 8a501858956576316f54fb64435261875bc9700c
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: 04902f83965c2f5fcc9bc3f7e0b98526d69cfecf
+
+COCOAPODS: 1.0.1
